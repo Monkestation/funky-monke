@@ -29,7 +29,7 @@ on:
 
 jobs:
   build:
-    if: github.actor != 'funkystationbot' && github.event.pull_request.draft == false
+    if: github.actor != 'PLACEHOLDERBOTNAME' && github.event.pull_request.draft == false
     strategy:
       matrix:
         os: [ubuntu-latest]

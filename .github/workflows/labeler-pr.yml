@@ -13,7 +13,7 @@ on:
 
 jobs:
   labeler:
-    if: github.actor != 'funkystationbot'
+    if: github.actor != 'PLACEHOLDERBOTNAME'
     permissions:
       contents: read
       pull-requests: write

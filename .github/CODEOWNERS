@@ -1,13 +1,1 @@
-# Last match in file takes precedence.
-
-# Sorting by path instead of by who added it one day :(
-# this isn't how codeowners rules work pls read the first comment instead of trying to force a sorting order
-
-# taydeo
-/Content.*/_Funkystation/ @taydeo
-
-# maps
-/Resources/Maps/ @willowzeta
-
-# rules
-/Resources/ServerInfo/ @JoulesBerg
+# Empty for now
