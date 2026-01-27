@@ -23,16 +23,14 @@
 name: Build & Test Map Renderer
 
 on:
-  push:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
     branches: [ master, staging, stable ]
   merge_group:
-  pull_request:
-    types: [ opened, reopened, synchronize, ready_for_review ]
-    branches: [ master, staging, stable ]
 
 jobs:
   build:
-    if: github.actor != 'boomerstation' && github.event.pull_request.draft == false
+    if: github.actor != 'github-actions[bot]' && github.event.pull_request.draft == false
     strategy:
       matrix:
         os: [ubuntu-latest]
