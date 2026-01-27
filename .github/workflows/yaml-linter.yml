@@ -28,7 +28,7 @@ on:
 jobs:
   build:
     name: YAML Linter
-    if: github.actor != 'github-actions[bot]' && github.event.pull_request.draft == false
+    if: github.event.head_commit.author.name != 'boomerstation' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
