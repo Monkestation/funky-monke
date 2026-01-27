@@ -38,7 +38,7 @@ env:
 
 jobs:
   build:
-    if: github.actor != 'github-actions' && github.event.pull_request.draft == false
+    if: github.actor != 'boomerstation' && github.event.pull_request.draft == false
     strategy:
       matrix:
         os: [ubuntu-latest]
