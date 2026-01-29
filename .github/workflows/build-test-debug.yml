@@ -39,7 +39,6 @@ env:
 
 jobs:
   build:
-    if: github.event.head_commit.author.name != 'boomerstation' && github.event.pull_request.draft == false
     strategy:
       matrix:
         os: [ubuntu-latest]
@@ -47,6 +46,18 @@ jobs:
     runs-on: [ubuntu-latest]
 
     steps:
+    - name: Skip Automated Commits
+      if: contains(env.COMMIT_MESSAGE, '[skip ci]')
+      run: |
+          echo "Automated commit detected - skipping job"
+          exit 0
+
+    - name: Skip Draft Commits
+      if: github.event.pull_request.draft == true
+      run: |
+          echo "Draft PR detected - skipping job"
+          exit 0
+
     - name: Checkout Master
       uses: actions/checkout@v4.2.2
 

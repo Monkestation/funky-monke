@@ -27,9 +27,21 @@ on:
 jobs:
   yaml-schema-validation:
     name: YAML RGA schema validator
-    if: github.event.head_commit.author.name != 'boomerstation' && github.event.pull_request.draft == false
+    if: ${{ github.actor != 'github-actions[bot]' && github.event_name != 'push' || github.event.pusher.name != 'boomerstation' }}
     runs-on: ubuntu-latest
     steps:
+    - name: Skip Automated Commits
+      if: contains(env.COMMIT_MESSAGE, '[skip ci]')
+      run: |
+            echo "Automated commit detected - skipping job"
+            exit 0
+
+    - name: Skip Draft Commits
+      if: github.event.pull_request.draft == true
+      run: |
+            echo "Automated commit detected - skipping job"
+            exit 0
+
     - uses: actions/checkout@v4.2.2
     - name: Setup Submodule
       run: git submodule update --init
