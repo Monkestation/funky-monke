@@ -3,20 +3,34 @@
 # SPDX-FileCopyrightText: 2024 TsjipTsjip <19798667+TsjipTsjip@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 nednaZ <62958508+nednaZ@users.noreply.github.com>
 #
 # SPDX-License-Identifier: MIT
 
 name: "Labels: PR"
+
 
 on:
 - pull_request_target
 
 jobs:
   labeler:
-    if: github.actor != 'funkystationbot'
     permissions:
       contents: read
       pull-requests: write
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'github-actions[bot]' && github.event_name != 'push' || github.event.pusher.name != 'boomerstation' }}
     steps:
+    - name: Skip Automated Commits
+      if: contains(env.COMMIT_MESSAGE, '[skip ci]')
+      run: |
+            echo "Automated commit detected - skipping job"
+            exit 0
+
+    - name: Skip Draft Commits
+      if: github.event.pull_request.draft == true
+      run: |
+            echo "Automated commit detected - skipping job"
+            exit 0
+
     - uses: actions/labeler@v5

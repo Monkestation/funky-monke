@@ -252,7 +252,7 @@ def process_git_log_output(output, author_timestamps):
             continue
 
         # Add main author
-        if author_name and author_email and author_name.strip() != "Unknown" and author_name.strip().lower() != "funkystationbot":
+        if author_name and author_email and author_name.strip() != "Unknown" and author_name.strip().lower() != "github-actions":
             author_key = f"{author_name.strip()} <{author_email.strip()}>"
             author_timestamps[author_key].append(timestamp)
 
@@ -260,7 +260,7 @@ def process_git_log_output(output, author_timestamps):
         for match in co_author_regex.finditer(body):
             co_author_name = match.group(1).strip()
             co_author_email = match.group(2).strip()
-            if co_author_name and co_author_email and co_author_name.strip() != "Unknown" and co_author_name.strip().lower() != "funkystationbot":
+            if co_author_name and co_author_email and co_author_name.strip() != "Unknown" and co_author_name.strip().lower() != "github-actions":
                 co_author_key = f"{co_author_name} <{co_author_email}>"
                 author_timestamps[co_author_key].append(timestamp)
 

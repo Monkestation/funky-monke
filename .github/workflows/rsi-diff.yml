@@ -7,6 +7,7 @@
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 nednaZ <62958508+nednaZ@users.noreply.github.com>
 #
 # SPDX-License-Identifier: MIT
 
@@ -51,7 +52,7 @@ jobs:
         id: fc
         with:
           issue-number: ${{ github.event.number }}
-          comment-author: 'github-actions[bot]'
+          comment-author: 'boomerstation[bot]'
           body-includes: RSI Diff Bot
 
       - name: Create comment if it doesn't exist

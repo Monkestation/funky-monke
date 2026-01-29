@@ -3,13 +3,11 @@
 # SPDX-FileCopyrightText: 2023 Visne <39844191+Visne@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 nednaZ <62958508+nednaZ@users.noreply.github.com>
 #
 # SPDX-License-Identifier: MIT
 
 contact_links:
-  - name: Report a Security Vulnerability
-    url: https://github.com/space-wizards/space-station-14/blob/master/SECURITY.md
-    about: Please report security vulnerabilities privately so we can fix them before they are publicly disclosed.
   - name: Request a Feature
-    url: https://discord.gg/funky14
-    about: Submit feature requests on our Discord server (https://discord.gg/funky14).
+    url: https://discord.com/invite/monkestation
+    about: Submit feature requests on our Discord server (https://discord.com/invite/monkestation).

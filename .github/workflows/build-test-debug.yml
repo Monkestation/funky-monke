@@ -20,32 +20,42 @@
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 nednaZ <62958508+nednaZ@users.noreply.github.com>
 #
 # SPDX-License-Identifier: MIT
 
 name: Build & Test Debug
 
 on:
-  push:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
     branches: [ master, staging, stable ]
   merge_group:
-  pull_request:
-    types: [ opened, reopened, synchronize, ready_for_review ]
-    branches: [ master, staging, stable ]
 
 env:
   DOTNET_INSTALL_DIR: "./.dotnet"
 
 jobs:
   build:
-    if: github.actor != 'funkystationbot' && github.event.pull_request.draft == false
     strategy:
       matrix:
         os: [ubuntu-latest]
 
-    runs-on: [ self-hosted, "${{ matrix.os }}" ]
+    runs-on: [ubuntu-latest]
 
     steps:
+    - name: Skip Automated Commits
+      if: contains(env.COMMIT_MESSAGE, '[skip ci]')
+      run: |
+          echo "Automated commit detected - skipping job"
+          exit 0
+
+    - name: Skip Draft Commits
+      if: github.event.pull_request.draft == true
+      run: |
+          echo "Draft PR detected - skipping job"
+          exit 0
+
     - name: Checkout Master
       uses: actions/checkout@v4.2.2
 

@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2025 Aidenkrz <28298836+Aidenkrz@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 nednaZ <62958508+nednaZ@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -97,7 +98,7 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: Automatically update REUSE headers"
+          commit_message: "chore: Automatically update REUSE headers [skip ci]"
           commit_user_name: ${{ vars.CHANGELOG_USER }}
           commit_user_email: ${{ vars.CHANGELOG_EMAIL }}
           commit_author: ${{ vars.CHANGELOG_USER }} <${{ vars.CHANGELOG_EMAIL }}>
