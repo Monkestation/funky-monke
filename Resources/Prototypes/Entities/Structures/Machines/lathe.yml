@@ -641,7 +641,6 @@
     runningState: building
     unlitIdleState: unlit
     unlitRunningState: unlit-building
-
     staticRecipes:
     - LargeBeaker
     - Dropper
@@ -924,9 +923,6 @@
     - ThermomachineAdvancedFreezerMachineCircuitBoard # Assmos
     - MusicTechFabCircuitboard # Funky Station
     - ElectrolyzerMachineCircuitboard # Assmos - /tg/ gases
-    - NuclearFabricatorMachineCircuitboard
-    - NuclearCentrifugeMachineCircuitboard
-
   - type: EmagLatheRecipes
     emagDynamicRecipes:
     - ShuttleGunDusterCircuitboard
