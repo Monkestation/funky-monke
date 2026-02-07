@@ -11,8 +11,7 @@ trait-ultravision-desc = Whether through custom bionic eyes, random mutation,
                          or being a Harpy, you perceive the world with ultraviolet light.
 
 trait-deuteranopia-name = Deuteranopia
-trait-deuteranopia-desc = Whether through custom bionic eyes, random mutation,
-                          or being a Vulpkanin, you have red–green colour blindness.
+trait-deuteranopia-desc = Whether through custom bionic eyes, or random mutation, you have red-green colour blindness.
 
 trait-font-comic-neue-name = Comic Neue
 trait-font-comic-neue-desc = For cartoon characters.

@@ -10,11 +10,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: damageModifierSet
-  id: Vulpkanin
-  coefficients:
-    Heat: 1.15
-
-- type: damageModifierSet
   id: Harpy
   coefficients:
     Blunt: 1.15

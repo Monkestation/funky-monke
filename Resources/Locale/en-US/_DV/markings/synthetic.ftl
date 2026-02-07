@@ -102,9 +102,6 @@ marking-SyntheticLizardHeadM-synth_lizard_head_m = Primary
 marking-SyntheticLizardHeadF = Synth Lizard Head Feminine
 marking-SyntheticLizardHeadF-synth_lizard_head_f = Primary
 
-marking-SyntheticVulpkaninHead = Vulpkanin Head from Ward-Takahashi
-marking-SyntheticVulpkaninHead-vulp_head = Primary
-
 # Eyes
 marking-ProtogenMouth = Protogen Mouth
 marking-ProtogenMouth-protogen_mouth = Primary

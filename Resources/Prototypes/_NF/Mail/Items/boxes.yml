@@ -332,41 +332,6 @@
 
 - type: entity
   name: Build-a-Buddy kit
-  suffix: Vulpkanin
-  parent: BoxBuildABuddyHuman
-  id: BoxBuildABuddyVulpkanin
-  description: "\"Valerie the Vulpkanin\" Build-a-Buddy kit. Some assembly required."
-  components:
-  - type: StorageFill
-    contents:
-    - id: OrganHumanEyes
-      amount: 1
-    - id: OrganHumanTongue
-      amount: 1
-    - id: OrganHumanAppendix
-      amount: 1
-    - id: OrganHumanEars
-      amount: 1
-    - id: OrganHumanLungs
-      amount: 1
-    - id: OrganHumanHeart
-      amount: 1
-    - id: OrganVulpkaninStomach
-      amount: 1
-    - id: OrganHumanLiver
-      amount: 1
-    - id: OrganHumanKidneys
-      amount: 1
-  - type: Storage
-    maxItemSize: Huge
-    grid:
-    - 0,0,6,4
-    whitelist:
-      components:
-      - Organ
-
-- type: entity
-  name: Build-a-Buddy kit
   suffix: Rodentia
   parent: BoxBuildABuddyHuman
   id: BoxBuildABuddyRodentia

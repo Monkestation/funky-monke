@@ -22,7 +22,7 @@
   id: HijabFashionable
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin, Thaven] # Frontier: add elinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Thaven] # Frontier: add elinid
   sprites:
   - sprite: _Impstation/Mobs/Customization/headcovers.rsi
     state: hijabchic
@@ -31,7 +31,7 @@
   id: HijabSimple
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin, Thaven] # Frontier: add Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Thaven] # Frontier: add Felinid
   sprites:
   - sprite: _Impstation/Mobs/Customization/headcovers.rsi
     state: hijabsimple
@@ -49,7 +49,7 @@
   id: TichelFashionable
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin, Thaven] # Frontier: add Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Thaven] # Frontier: add Felinid
   sprites:
   - sprite: _Impstation/Mobs/Customization/headcovers.rsi
     state: tichelfashionable
@@ -58,7 +58,7 @@
   id: TichelSimple
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin, Thaven] # Frontier: add Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Thaven] # Frontier: add Felinid
   sprites:
   - sprite: _Impstation/Mobs/Customization/headcovers.rsi
     state: tichelsimple

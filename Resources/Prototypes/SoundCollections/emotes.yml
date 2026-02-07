@@ -148,11 +148,6 @@
   - /Audio/Items/Toys/hew.ogg
 
 - type: soundCollection
-  id: VulpkaninYap
-  files:
-  - /Audio/_DV/Voice/Vulpkanin/yap.ogg
-
-- type: soundCollection
   id: VoxChitter
   files:
     - /Audio/_Impstation/Voice/Vox/voxchitter1.ogg

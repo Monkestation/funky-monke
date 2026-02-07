@@ -344,14 +344,6 @@ accent-cowboy-replacement-108 = long-ear
 accent-cowboy-words-109 = elves
 accent-cowboy-replacement-109 = long-ears
 
-accent-cowboy-words-110 = vulpkanin
-accent-cowboy-words-110-2 = vulp
-accent-cowboy-replacement-110 = fuzztail
-
-accent-cowboy-words-111 = vulpkanins
-accent-cowboy-words-111-2 = vulps
-accent-cowboy-replacement-111 = fuzztails
-
 accent-cowboy-words-112 = salvager
 accent-cowboy-replacement-112 = prospector
 

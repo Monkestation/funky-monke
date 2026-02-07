@@ -79,36 +79,6 @@
       ]
     },
     {
-      "name": "equipped-HELMET-vulpkanin",
-      "directions": 4,
-      "delays": [
-        [
-		      0.5,
-		      0.125,
-		      0.5,
-		      0.125
-        ],
-        [
-		      0.5,
-		      0.125,
-		      0.5,
-		      0.125
-        ],
-        [
-		      0.5,
-		      0.125,
-		      0.5,
-		      0.125
-        ],
-        [
-		      0.5,
-		      0.125,
-		      0.5,
-		      0.125
-        ]
-      ]
-    },
-    {
       "name": "equipped-HELMET-vox",
       "directions": 4,
       "delays": [

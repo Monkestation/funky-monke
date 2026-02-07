@@ -200,7 +200,7 @@
   - sprite: _Funkystation/Mobs/Customization/Facepaints/thaven.rsi
     state: facepaint_lipstick
 
-## Vox, use [Vox] for restrictions 
+## Vox, use [Vox] for restrictions
 
 - type: marking
   id: FacepaintClownVox
@@ -410,12 +410,12 @@
   id: FacepaintBlushSnoutUnshaded
   bodyPart: Snout
   markingCategory: Head
-  speciesRestriction: [Reptilian, Vulpkanin]
+  speciesRestriction: [Reptilian]
   sprites:
   - sprite: _NF/Mobs/Customization/Facepaints/shared.rsi
     state: facepaint_blush
   shader: unshaded
-  
+
 - type: marking
   id: FacepaintBlushThavenUnshaded
   bodyPart: Head

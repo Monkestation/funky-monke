@@ -277,40 +277,6 @@
 
 - type: entity
   parent: CrateGeneric
-  id: CrateBuildABuddyVulpkanin
-  name: build-a-buddy
-  suffix: Vulpkanin
-  description: "\"Valerie the Vulpkanin\" Build-a-Buddy kit. Some assembly required."
-  components:
-  - type: Icon
-    sprite: _Funkystation/Structures/Storage/Crates/buildabuddy.rsi
-  - type: Sprite
-    sprite: _Funkystation/Structures/Storage/Crates/buildabuddy.rsi
-  - type: StorageFill
-    contents:
-    - id: TorsoVulpkanin
-      amount: 1
-    - id: HeadVulpkanin
-      amount: 1
-    - id: LeftArmVulpkanin
-      amount: 1
-    - id: RightArmVulpkanin
-      amount: 1
-    - id: LeftHandVulpkanin
-      amount: 1
-    - id: RightHandVulpkanin
-      amount: 1
-    - id: LeftLegVulpkanin
-      amount: 1
-    - id: RightLegVulpkanin
-      amount: 1
-    - id: LeftFootVulpkanin
-      amount: 1
-    - id: RightFootVulpkanin
-      amount: 1
-
-- type: entity
-  parent: CrateGeneric
   id: CrateBuildABuddyRodentia
   name: build-a-buddy
   suffix: Rodentia

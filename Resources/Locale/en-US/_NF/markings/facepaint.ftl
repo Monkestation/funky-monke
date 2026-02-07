@@ -22,18 +22,6 @@ marking-FacepaintMimeSadReptilian = Sad Mime Facepaint
 marking-FacepaintMimeSeriousReptilian = Serious Mime Facepaint
 marking-FacepaintWhiteReptilian = White Facepaint
 
-marking-FacepaintClownVulpkanin = Clown Facepaint
-marking-FacepaintClownMinimalVulpkanin = Minimalist Clown Facepaint
-marking-FacepaintClownSadVulpkanin = Sad Clown Facepaint
-marking-FacepaintClownSeriousVulpkanin = Serious Clown Facepaint
-marking-FacepaintClownSmugVulpkanin = Smug Clown Facepaint
-marking-FacepaintMimeVulpkanin = Mime Facepaint
-marking-FacepaintMimeBlushVulpkanin = Blushing Mime Facepaint
-marking-FacepaintMimeOddVulpkanin = Odd Mime Facepaint
-marking-FacepaintMimeSadVulpkanin = Sad Mime Facepaint
-marking-FacepaintMimeSeriousVulpkanin = Serious Mime Facepaint
-marking-FacepaintWhiteVulpkanin = White Facepaint
-
 marking-FacepaintBlushHead = Blush
 marking-FacepaintBlushHead-facepaint_blush = Blush
 marking-FacepaintEyebrowsHead = Eyebrows

@@ -32,7 +32,7 @@
       organs:
         heart: OrganAnimalHeart
         lungs: OrganHumanLungs
-        stomach: OrganVulpkaninStomach
+        stomach: OrganHumanStomach
         liver:  OrganAnimalLiver
         kidneys: OrganHumanKidneys
     right arm:

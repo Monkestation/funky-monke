@@ -23,15 +23,6 @@
   - sprite: _DV/Mobs/Customization/SynthLizIPC/head_markings.rsi
     state: synth_lizard_head_f
 
-- type: marking
-  id: SyntheticVulpkaninHead
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [IPC]
-  sprites:
-  - sprite: _DV/Mobs/Customization/SynthLizIPC/head_markings.rsi
-    state: vulp_head
-
 # Torsos
 - type: marking
   id: SyntheticLizardChestM
