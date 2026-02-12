@@ -80956,13 +80956,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingNeckCloakAce
-  entities:
-  - uid: 18303
-    components:
-    - type: Transform
-      pos: -4.464142,51.52777
-      parent: 12
 - proto: ClothingNeckCloakMiner
   entities:
   - uid: 32127
@@ -80970,13 +80963,6 @@ entities:
     - type: Transform
       rot: -6.283185307179586 rad
       pos: -60.515457,-50.51032
-      parent: 12
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 25486
-    components:
-    - type: Transform
-      pos: -0.13286686,29.66557
       parent: 12
 - proto: ClothingNeckHeadphones
   entities:
@@ -148715,14 +148701,6 @@ entities:
     components:
     - type: Transform
       pos: 61.627953,47.602016
-      parent: 12
-- proto: LGBTQHandyFlag
-  entities:
-  - uid: 11014
-    components:
-    - type: Transform
-      rot: -12.566370614359172 rad
-      pos: -0.6024373,17.635342
       parent: 12
 - proto: LightBulbOld
   entities:

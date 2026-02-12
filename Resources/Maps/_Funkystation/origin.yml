@@ -80578,27 +80578,6 @@ entities:
     - type: Transform
       pos: 12.510361,-6.449043
       parent: 2
-- proto: ClothingNeckAromanticPin
-  entities:
-  - uid: 12646
-    components:
-    - type: Transform
-      pos: -16.507944,41.79273
-      parent: 2
-- proto: ClothingNeckAsexualPin
-  entities:
-  - uid: 12647
-    components:
-    - type: Transform
-      pos: -16.289194,41.51148
-      parent: 2
-- proto: ClothingNeckBisexualPin
-  entities:
-  - uid: 12648
-    components:
-    - type: Transform
-      pos: -42.7372,8.687558
-      parent: 2
 - proto: ClothingNeckBling
   entities:
   - uid: 12649
@@ -80613,23 +80592,6 @@ entities:
     - type: Transform
       pos: -8.662971,-82.55483
       parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 12651
-    components:
-    - type: Transform
-      pos: -9.4988165,23.574131
-      parent: 2
-    - type: CollisionWake
-      enabled: False
-    - type: Conveyed
-- proto: ClothingNeckIntersexPin
-  entities:
-  - uid: 12652
-    components:
-    - type: Transform
-      pos: -12.691556,31.94308
-      parent: 2
 - proto: ClothingNeckLawyerbadge
   entities:
   - uid: 12653
@@ -80637,45 +80599,12 @@ entities:
     - type: Transform
       pos: 43.39902,-3.8456278
       parent: 2
-- proto: ClothingNeckLesbianPin
-  entities:
-  - uid: 12654
-    components:
-    - type: Transform
-      pos: -51.700592,8.465523
-      parent: 2
-- proto: ClothingNeckLGBTPin
-  entities:
-  - uid: 12655
-    components:
-    - type: Transform
-      pos: -10.776614,43.48699
-      parent: 2
 - proto: ClothingNeckMantleCE
   entities:
   - uid: 12656
     components:
     - type: Transform
       pos: -35.58501,-17.148493
-      parent: 2
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 12658
-    components:
-    - type: Transform
-      pos: -21.722902,35.752502
-      parent: 2
-  - uid: 12659
-    components:
-    - type: Transform
-      pos: -47.78141,6.181047
-      parent: 2
-- proto: ClothingNeckPansexualPin
-  entities:
-  - uid: 12660
-    components:
-    - type: Transform
-      pos: -1.5377516,30.493696
       parent: 2
 - proto: ClothingNeckScarfStripedCentcom
   entities:
@@ -80690,13 +80619,6 @@ entities:
     components:
     - type: Transform
       pos: -28.25746,44.644928
-      parent: 2
-- proto: ClothingNeckTransPin
-  entities:
-  - uid: 12663
-    components:
-    - type: Transform
-      pos: 65.36391,-1.4805084
       parent: 2
 - proto: ClothingOuterCardborg
   entities:
@@ -176493,18 +176415,6 @@ entities:
     components:
     - type: Transform
       pos: -2.5,8.5
-      parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 32119
-    components:
-    - type: Transform
-      pos: -14.5,29.5
-      parent: 2
-  - uid: 32120
-    components:
-    - type: Transform
-      pos: 34.5,-6.5
       parent: 2
 - proto: VendingMachineRestockSmokes
   entities:

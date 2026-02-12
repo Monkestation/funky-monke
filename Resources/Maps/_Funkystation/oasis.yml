@@ -95654,15 +95654,6 @@ entities:
     - type: Transform
       pos: -46.98417,-7.2719007
       parent: 2
-- proto: ClothingNeckCloakGay
-  entities:
-  - uid: 8775
-    components:
-    - type: Transform
-      parent: 8773
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingNeckStethoscope
   entities:
   - uid: 8696
@@ -169595,7 +169586,7 @@ entities:
       content: >-
         To:    Mom
 
-        From:  Elian Voss, 
+        From:  Elian Voss,
                      Power Systems Maintenance Tech – Oasis Station
         Subject: Before I Go Under
 

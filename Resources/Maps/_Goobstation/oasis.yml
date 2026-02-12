@@ -75162,15 +75162,6 @@ entities:
     - type: Transform
       pos: -46.98417,-7.2719007
       parent: 2
-- proto: ClothingNeckCloakGay
-  entities:
-  - uid: 7874
-    components:
-    - type: Transform
-      parent: 7872
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingNeckStethoscope
   entities:
   - uid: 7817

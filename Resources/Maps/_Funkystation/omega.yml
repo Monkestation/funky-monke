@@ -33257,13 +33257,6 @@ entities:
     - type: Transform
       pos: 65.5,-25.5
       parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 5152
-    components:
-    - type: Transform
-      pos: 38.546867,-26.403046
-      parent: 2
 - proto: ClothingNeckHeadphones
   entities:
   - uid: 5153
@@ -33275,20 +33268,6 @@ entities:
     components:
     - type: Transform
       pos: -0.5106895,-15.532991
-      parent: 2
-- proto: ClothingNeckIntersexPin
-  entities:
-  - uid: 5155
-    components:
-    - type: Transform
-      pos: 19.693497,8.613337
-      parent: 2
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 5156
-    components:
-    - type: Transform
-      pos: 8.410957,-44.59256
       parent: 2
 - proto: ClothingNeckScarfStripedBlue
   entities:
@@ -33356,13 +33335,6 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: ClothingNeckTransPin
-  entities:
-  - uid: 5164
-    components:
-    - type: Transform
-      pos: -14.357392,4.331708
-      parent: 2
 - proto: ClothingOuterArmorBulletproof
   entities:
   - uid: 5166
@@ -78954,13 +78926,6 @@ entities:
     components:
     - type: Transform
       pos: 25.5,-32.5
-      parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 13587
-    components:
-    - type: Transform
-      pos: -21.5,-1.5
       parent: 2
 - proto: VendingMachineRoboDrobe
   entities:

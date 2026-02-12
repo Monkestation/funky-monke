@@ -104220,13 +104220,6 @@ entities:
     - type: Transform
       pos: 61.52346,74.61896
       parent: 1
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 34617
-    components:
-    - type: Transform
-      pos: 159.5,76.5
-      parent: 1
 - proto: ClothingNeckScarfStripedBlue
   entities:
   - uid: 17692
@@ -104256,14 +104249,6 @@ entities:
     - type: Transform
       rot: -18.84955592153876 rad
       pos: 33.606068,104.52185
-      parent: 1
-- proto: ClothingNeckTransPin
-  entities:
-  - uid: 27324
-    components:
-    - type: Transform
-      rot: -6.283185307179586 rad
-      pos: 80.74132,53.58903
       parent: 1
 - proto: ClothingOuterApronBar
   entities:
@@ -216889,13 +216874,6 @@ entities:
     components:
     - type: Transform
       pos: 93.5,96.5
-      parent: 1
-- proto: VendingMachinePride
-  entities:
-  - uid: 29764
-    components:
-    - type: Transform
-      pos: 159.5,134.5
       parent: 1
 - proto: VendingMachineRobotics
   entities:

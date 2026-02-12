@@ -115,14 +115,6 @@ accent-milbrat-words-replace-20 = wilco
 accent-milbrat-words-21 = help
 accent-milbrat-words-replace-21 = assist
 
-accent-milbrat-words-22 = erp
-accent-milbrat-words-22-2 = in love with
-accent-milbrat-words-22-3 = having sex
-accent-milbrat-words-22-4 = in a relationship
-accent-milbrat-words-22-5 = kissing
-accent-milbrat-words-22-6 = hugging
-accent-milbrat-words-replace-22 = fraternizing
-
 accent-milbrat-words-23 = department
 accent-milbrat-words-replace-23 = squad
 

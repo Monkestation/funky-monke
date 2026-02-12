@@ -56980,13 +56980,6 @@ entities:
     - type: Transform
       pos: 29.707613,-26.225136
       parent: 2
-- proto: ClothingNeckCloakBi
-  entities:
-  - uid: 26732
-    components:
-    - type: Transform
-      pos: 61.536083,-30.4197
-      parent: 2
 - proto: ClothingNeckCloakGoliathCloak
   entities:
   - uid: 26729
@@ -57000,13 +56993,6 @@ entities:
     components:
     - type: Transform
       pos: 43.727654,12.391587
-      parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 21921
-    components:
-    - type: Transform
-      pos: 60.539204,8.617596
       parent: 2
 - proto: ClothingOuterHardsuitMime
   entities:

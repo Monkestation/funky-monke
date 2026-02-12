@@ -8,7 +8,7 @@
 # Gondola
 accent-words-gondola-1 = ...
 
-#Ohio
+# Ohio
 accent-ohio-prefix-1 = Gyatt dang,
 accent-ohio-prefix-2 = Chat...
 accent-ohio-prefix-3 = Epic win,
@@ -223,23 +223,8 @@ accent-ohio-words-replace-63 = rizzbucks
 accent-ohio-words-64 = kill you
 accent-ohio-words-replace-64 = send you to Brazil
 
-accent-ohio-words-65 = dick
-accent-ohio-words-replace-65 = glizzy
-
 accent-ohio-words-66 = hot dog
 accent-ohio-words-replace-66 = glizzy
-
-accent-ohio-words-67 = butt
-accent-ohio-words-replace-67 = bussy
-
-accent-ohio-words-68 = bum
-accent-ohio-words-replace-68 = bussy
-
-accent-ohio-words-69 = ass
-accent-ohio-words-replace-69 = bussy
-
-accent-ohio-words-70 = kill yourself
-accent-ohio-words-replace-70 = send yourself to Brazil you stupid rizzless citizen of Ohio
 
 accent-ohio-words-71 = felinid
 accent-ohio-words-replace-71 = hecking chonker
@@ -321,12 +306,6 @@ accent-ohio-words-replace-96 = i'm tweaking
 
 accent-ohio-words-97 = supermatter
 accent-ohio-words-replace-97 = fanum crystal
-
-accent-ohio-words-98 = erping
-accent-ohio-words-replace-98 = going to freaky town
-
-accent-ohio-words-99 = erp
-accent-ohio-words-replace-99 = freaky
 
 accent-ohio-words-100 = sm
 accent-ohio-words-replace-100 = fanum crystal
@@ -423,6 +402,3 @@ accent-ohio-words-replace-130 = tea
 
 accent-ohio-words-131 = throw
 accent-ohio-words-replace-131 = yeet
-
-accent-ohio-words-132 = gay
-accent-ohio-words-replace-132 = zesty

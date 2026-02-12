@@ -67511,13 +67511,6 @@ entities:
       linearDamping: 0
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 4257
-    components:
-    - type: Transform
-      pos: -86.58815,-2.4880528
-      parent: 2
 - proto: ClothingNeckHeadphones
   entities:
   - uid: 16531
@@ -67528,13 +67521,6 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 10673
-    components:
-    - type: Transform
-      pos: 38.507042,-40.375908
-      parent: 2
 - proto: ClothingNeckScarfStripedSyndieRed
   entities:
   - uid: 9580
@@ -108595,13 +108581,6 @@ entities:
     - type: Transform
       pos: 57.442696,-38.7426
       parent: 2
-- proto: LGBTQHandyFlag
-  entities:
-  - uid: 22127
-    components:
-    - type: Transform
-      pos: 41.683144,3.3770208
-      parent: 2
 - proto: Lighter
   entities:
   - uid: 21642
@@ -135616,13 +135595,6 @@ entities:
     components:
     - type: Transform
       pos: -15.5,-7.5
-      parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 2244
-    components:
-    - type: Transform
-      pos: -33.5,0.5
       parent: 2
 - proto: VendingMachineRestockCondimentStation
   entities:

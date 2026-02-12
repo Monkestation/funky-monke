@@ -45,10 +45,10 @@
     - VendingMachineSovietSoda #Boda
     - VendingMachineSpaceUp
     - VendingMachineStarkist
-    # Funky 
+    # Funky
     - VendingMachineFitness # SweatMAX
     - VendingMachineSolsnack # Mars Mart
-    - VendingMachineWeeb # Nippon-tan    
+    - VendingMachineWeeb # Nippon-tan
     chance: 1
 
 
@@ -60,8 +60,6 @@
       weight: 40
     - id: VendingMachineWinter
       weight: 40
-    - id: VendingMachinePride
-      weight: 10
     - id: VendingMachineTheater
       weight: 10
 

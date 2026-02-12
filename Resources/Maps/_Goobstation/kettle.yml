@@ -65524,27 +65524,6 @@ entities:
     - type: Transform
       pos: 51.434788,-11.631462
       parent: 82
-- proto: ClothingNeckAromanticPin
-  entities:
-  - uid: 7280
-    components:
-    - type: Transform
-      pos: 29.412611,-17.30906
-      parent: 82
-- proto: ClothingNeckAsexualPin
-  entities:
-  - uid: 7133
-    components:
-    - type: Transform
-      pos: -0.7473192,-39.581512
-      parent: 82
-- proto: ClothingNeckBisexualPin
-  entities:
-  - uid: 7134
-    components:
-    - type: Transform
-      pos: -51.733475,-28.012512
-      parent: 82
 - proto: ClothingNeckBling
   entities:
   - uid: 12186
@@ -65585,47 +65564,12 @@ entities:
     - type: Transform
       pos: -9.457472,-8.396783
       parent: 82
-- proto: ClothingNeckIntersexPin
-  entities:
-  - uid: 7238
-    components:
-    - type: Transform
-      pos: -28.35835,5.4578533
-      parent: 82
-- proto: ClothingNeckLesbianPin
-  entities:
-  - uid: 7246
-    components:
-    - type: Transform
-      pos: 16.717562,29.681984
-      parent: 82
-- proto: ClothingNeckLGBTPin
-  entities:
-  - uid: 7281
-    components:
-    - type: Transform
-      pos: 78.38637,7.410472
-      parent: 82
 - proto: ClothingNeckMantleHOS
   entities:
   - uid: 22193
     components:
     - type: Transform
       pos: 60.7447,-16.379261
-      parent: 82
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 7279
-    components:
-    - type: Transform
-      pos: -60.491737,42.509815
-      parent: 82
-- proto: ClothingNeckPansexualPin
-  entities:
-  - uid: 7253
-    components:
-    - type: Transform
-      pos: 24.309896,47.73986
       parent: 82
 - proto: ClothingNeckScarfStripedGreen
   entities:
@@ -65679,13 +65623,6 @@ entities:
     components:
     - type: Transform
       pos: 28.513184,-28.418102
-      parent: 82
-- proto: ClothingNeckTransPin
-  entities:
-  - uid: 7135
-    components:
-    - type: Transform
-      pos: -29.219229,-1.5939128
       parent: 82
 - proto: ClothingOuterApronChef
   entities:

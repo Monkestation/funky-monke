@@ -53982,13 +53982,6 @@ entities:
     - type: Transform
       pos: 9.609975,6.595586
       parent: 2
-- proto: ClothingNeckCloakAce
-  entities:
-  - uid: 7771
-    components:
-    - type: Transform
-      pos: 47.501015,-87.459625
-      parent: 2
 - proto: ClothingNeckCloakAdmin
   entities:
   - uid: 7772
@@ -53996,54 +53989,12 @@ entities:
     - type: Transform
       pos: 61.5,-78.5
       parent: 2
-- proto: ClothingNeckCloakAro
-  entities:
-  - uid: 7773
-    components:
-    - type: Transform
-      pos: 21.531446,-49.442505
-      parent: 2
-- proto: ClothingNeckCloakEnby
-  entities:
-  - uid: 7774
-    components:
-    - type: Transform
-      pos: 24.430853,-59.5613
-      parent: 2
-- proto: ClothingNeckCloakGay
-  entities:
-  - uid: 7775
-    components:
-    - type: Transform
-      pos: 17.536743,-16.434425
-      parent: 2
-- proto: ClothingNeckCloakLesbian
-  entities:
-  - uid: 7776
-    components:
-    - type: Transform
-      pos: 29.529152,28.479647
-      parent: 2
 - proto: ClothingNeckCloakMoth
   entities:
   - uid: 7777
     components:
     - type: Transform
       pos: 44.536793,-50.46367
-      parent: 2
-- proto: ClothingNeckCloakPan
-  entities:
-  - uid: 7778
-    components:
-    - type: Transform
-      pos: 50.483807,-55.407658
-      parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 7779
-    components:
-    - type: Transform
-      pos: 41.510986,-27.452278
       parent: 2
 - proto: ClothingNeckMantle
   entities:
@@ -94620,13 +94571,6 @@ entities:
     - type: Transform
       pos: -11.532342,19.777779
       parent: 2
-- proto: LGBTQHandyFlag
-  entities:
-  - uid: 13727
-    components:
-    - type: Transform
-      pos: 38.551476,-60.430798
-      parent: 2
 - proto: Lighter
   entities:
   - uid: 13728
@@ -97419,7 +97363,7 @@ entities:
         [color=#ff0000][head=2]                    PARENT FORM: PRF07     [/head]
                          -- This document is tied to Child Forms:--         [/color]
                                                 [head=3]NotATrasen[/ head]
-        [color=#1b67a5]█▄ █ ▀█▀ [head=3]Author: Command Secretary[/head] █ ▀█     █    
+        [color=#1b67a5]█▄ █ ▀█▀ [head=3]Author: Command Secretary[/head] █ ▀█     █
 
         (* = A Required Field)
 

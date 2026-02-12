@@ -242,7 +242,7 @@
   components:
     - type: Sprite
       sprite: Clothing/Back/Backpacks/merc.rsi
-    - type: Storage # Funky Station change 
+    - type: Storage # Funky Station change
       grid:
       - 0,0,1,3
       - 3,0,7,3
@@ -438,7 +438,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug3
-  name: gay wackpack
+  name: wackpack
   description: What the fuck is this?
   suffix: Debug
   components:

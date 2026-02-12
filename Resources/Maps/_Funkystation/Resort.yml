@@ -280859,13 +280859,6 @@ entities:
     - type: Transform
       pos: 47.5,20.5
       parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 9030
-    components:
-    - type: Transform
-      pos: 36.5,45.5
-      parent: 2
 - proto: VendingMachinePwrGame
   entities:
   - uid: 16325

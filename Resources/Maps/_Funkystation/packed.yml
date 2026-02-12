@@ -43535,18 +43535,6 @@ entities:
     - type: Transform
       pos: 17.479858,8.394902
       parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 688
-    components:
-    - type: Transform
-      pos: 7.491953,-13.240216
-      parent: 2
-  - uid: 7009
-    components:
-    - type: Transform
-      pos: 19.545155,5.62142
-      parent: 2
 - proto: ClothingNeckScarfStripedRed
   entities:
   - uid: 12226
@@ -78116,7 +78104,7 @@ entities:
 
             To Whom It May Concern:
 
-        Due to the increasing spesos deficit incurred by this station in prior shifts, [color=#009100]Central Command[/color] has made the executive decision to liquidate the [color=#f39f27]Engineering[/color] department's Thermo-electric Generator. 
+        Due to the increasing spesos deficit incurred by this station in prior shifts, [color=#009100]Central Command[/color] has made the executive decision to liquidate the [color=#f39f27]Engineering[/color] department's Thermo-electric Generator.
 
 
         Should [color=#f39f27]Engineering[/color] wish to make use of a Thermo-electric Generator in the future, consider purchasing one through your request computer.
@@ -95034,13 +95022,6 @@ entities:
     components:
     - type: Transform
       pos: 44.5,-4.5
-      parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 15135
-    components:
-    - type: Transform
-      pos: 18.5,5.5
       parent: 2
 - proto: VendingMachineRoboDrobe
   entities:

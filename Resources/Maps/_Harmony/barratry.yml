@@ -61386,13 +61386,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -60.867943,22.541542
       parent: 2
-- proto: ClothingNeckAromanticPin
-  entities:
-  - uid: 7172
-    components:
-    - type: Transform
-      pos: -25.61458,26.466957
-      parent: 2
 - proto: ClothingNeckBling
   entities:
   - uid: 7173
@@ -61407,27 +61400,6 @@ entities:
     - type: Transform
       pos: -53.41692,13.576396
       parent: 2
-- proto: ClothingNeckIntersexPin
-  entities:
-  - uid: 7175
-    components:
-    - type: Transform
-      pos: 28.525753,9.397884
-      parent: 2
-- proto: ClothingNeckLGBTPin
-  entities:
-  - uid: 7176
-    components:
-    - type: Transform
-      pos: -34.543724,28.416185
-      parent: 2
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 7177
-    components:
-    - type: Transform
-      pos: -27.46916,-8.556879
-      parent: 2
 - proto: ClothingNeckTieDet
   entities:
   - uid: 7131
@@ -61437,13 +61409,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingNeckTransPin
-  entities:
-  - uid: 7178
-    components:
-    - type: Transform
-      pos: -54.52713,17.537136
-      parent: 2
 - proto: ClothingOuterApronBar
   entities:
   - uid: 7179
@@ -128227,13 +128192,6 @@ entities:
     components:
     - type: Transform
       pos: -39.5,50.5
-      parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 17077
-    components:
-    - type: Transform
-      pos: 10.5,-15.5
       parent: 2
 - proto: VendingMachineRestockBooze
   entities:

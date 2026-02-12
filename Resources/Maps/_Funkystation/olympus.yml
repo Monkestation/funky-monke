@@ -192073,13 +192073,6 @@ entities:
     - type: Transform
       pos: 27.5,7.5
       parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 26794
-    components:
-    - type: Transform
-      pos: 65.5,-29.5
-      parent: 2
 - proto: VendingMachineRestockVendomat
   entities:
   - uid: 24814

@@ -30502,30 +30502,6 @@ entities:
     - type: Transform
       pos: 10.574723,-50.11058
       parent: 31
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 9748
-    components:
-    - type: Transform
-      pos: -28.4315,17.631725
-      parent: 31
-- proto: ClothingNeckGenderqueerPin
-  entities:
-  - uid: 12220
-    components:
-    - type: Transform
-      pos: -21.872997,20.246986
-      parent: 31
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 11135
-    components:
-    - type: Transform
-      pos: 43.27403,-8.317395
-      parent: 31
 - proto: ClothingNeckScarfStripedBlue
   entities:
   - uid: 7843
@@ -30568,16 +30544,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingNeckTransPin
-  entities:
-  - uid: 11137
-    components:
-    - type: Transform
-      pos: -22.252474,-23.474195
-      parent: 31
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
 - proto: ClothingOuterArmorBasic
   entities:
   - uid: 1206
@@ -69350,13 +69316,6 @@ entities:
     components:
     - type: Transform
       pos: -16.5,-2.5
-      parent: 31
-- proto: VendingMachinePride
-  entities:
-  - uid: 6947
-    components:
-    - type: Transform
-      pos: -21.5,-4.5
       parent: 31
 - proto: VendingMachineRestockBooze
   entities:

@@ -108657,21 +108657,6 @@ entities:
     - type: Transform
       pos: -10.596703,167.17128
       parent: 2
-- proto: ClothingNeckLesbianPin
-  entities:
-  - uid: 16766
-    components:
-    - type: Transform
-      pos: -116.6153,76.42188
-      parent: 2
-- proto: ClothingNeckScarfStripedLesbianLong
-  entities:
-  - uid: 16736
-    components:
-    - type: Transform
-      parent: 7322
-    - type: Physics
-      canCollide: False
 - proto: ClothingOuterArmorBulletproof
   entities:
   - uid: 22632
@@ -251436,13 +251421,6 @@ entities:
     components:
     - type: Transform
       pos: 31.5,-30.5
-      parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 12225
-    components:
-    - type: Transform
-      pos: 65.5,-9.5
       parent: 2
 - proto: VendingMachineRestockDonut
   entities:

@@ -95926,13 +95926,6 @@ entities:
     - type: Transform
       pos: 12.603026,74.274254
       parent: 13329
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 34255
-    components:
-    - type: Transform
-      pos: -35.53245,36.540043
-      parent: 13329
 - proto: ClothingNeckHeadphones
   entities:
   - uid: 18652
