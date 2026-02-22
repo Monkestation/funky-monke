@@ -62,9 +62,6 @@
   id: LizardEmotes
 
 - type: Tag
-  id: VoxEmotes
-
-- type: Tag
   id: BartendingTool
 
 - type: Tag
@@ -120,7 +117,7 @@
 
 - type: Tag
   id: FragileImplant
-  
+
 - type: Tag
   id: UraniumSheet
 

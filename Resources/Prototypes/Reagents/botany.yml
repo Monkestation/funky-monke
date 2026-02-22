@@ -306,9 +306,6 @@
         - !type:OrganType
           type: Rat
           shouldHave: false
-        - !type:OrganType
-          type: Vox
-          shouldHave: false
         - !type:OrganType #imp, thaven can breathe all gases safely
           type: Thaven
           shouldHave: false
@@ -342,11 +339,6 @@
             Burn: -5
           types:
             Bloodloss: -5
-      - !type:Oxygenate # ammonia displaces nitrogen in vox blood
-        conditions:
-        - !type:OrganType
-          type: Vox
-        factor: -4
       - !type:Oxygenate #imp, thaven can breathe all gases safely
         conditions:
         - !type:OrganType

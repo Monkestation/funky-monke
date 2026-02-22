@@ -723,7 +723,7 @@
     shoes: ClothingShoesColorBlue
     gloves: ClothingHandsGlovesLatex
     head: ClothingHeadHatSurgcapBlue
-#    mask: ClothingMaskBreathMedical # right now this is broken for vox, but maybe some day.
+    mask: ClothingMaskBreathMedical
     id: VisitorPDA
     belt: ClothingBeltStorageWaistbag
     back: NitrousOxideTankFilled
@@ -1072,7 +1072,7 @@
     jumpsuit: ClothingUniformJumpsuitChef
     shoes: ClothingShoesChef
     head: ClothingHeadHatChef
-#    mask: ClothingMaskItalianMoustache # right now this is broken for vox, so its inhand.
+    mask: ClothingMaskItalianMoustache
     id: VisitorPDA
     back: ClothingBackpackSatchel
     belt: ClothingBeltChefFilled
@@ -1081,7 +1081,6 @@
     pocket1: ButchCleaver
     pocket2: BookHowToCookForFortySpaceman
   inhand:
-  - ClothingMaskItalianMoustache
   - DrinkWineBottleFull
 
 - type: startingGear
@@ -1090,7 +1089,7 @@
     jumpsuit: ClothingUniformJumpsuitChef
     shoes: ClothingShoesColorBlack
     head: ClothingHeadHatChef
-#    mask: ClothingMaskItalianMoustache # right now this is broken for vox, so its inhand.
+    mask: ClothingMaskItalianMoustache
     id: VisitorPDA
     back: ClothingBackpack
     belt: ClothingBeltChefFilled
@@ -1099,7 +1098,6 @@
     pocket1: RollingPin
     pocket2: BookHowToCookForFortySpaceman
   inhand:
-  - ClothingMaskItalianMoustache
   - FoodCheese
 
 - type: startingGear

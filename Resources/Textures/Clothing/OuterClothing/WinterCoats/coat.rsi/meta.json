@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/77cff42b6c514e73881a885036be4b4dd2949f62 recolored by Github user Dutch-VanDerLinde, CAP edited by Skarletto (github), equipped-OUTERCLOTHING-vox states taken from /vg/station at commit https://github.com/vgstation-coders/vgstation13/commit/31d6576ba8102135d058ef49c3cb6ecbe8db8a79 and repaletted to match by Flareguy, grayscale layering & armor by IProduceWidgets (Github), QM edited by wurnt(discord) for FunkyStation.org, Janitor coat resprited by Frogoo, roboticist coats recolored by Sigma Draconis, paramedic coat by theuzispoogy and edited by RosySaturniidae",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/77cff42b6c514e73881a885036be4b4dd2949f62 recolored by Github user Dutch-VanDerLinde, CAP edited by Skarletto (github), grayscale layering & armor by IProduceWidgets (Github), QM edited by wurnt(discord) for FunkyStation.org, Janitor coat resprited by Frogoo, roboticist coats recolored by Sigma Draconis, paramedic coat by theuzispoogy and edited by RosySaturniidae",
   "size": {
     "x": 32,
     "y": 32
@@ -12,10 +12,6 @@
     },
     {
       "name": "equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-    {
-      "name": "equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
     {
@@ -34,10 +30,6 @@
       "directions": 4
     },
     {
-      "name": "ATMOS-equipped-OUTERCLOTHING-vox",
-      "directions": 4
-    },
-    {
       "name": "ATMOS-inhand-left",
       "directions": 4
     },
@@ -50,10 +42,6 @@
     },
     {
       "name": "SCI-equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-    {
-      "name": "SCI-equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
     {
@@ -87,10 +75,6 @@
       "directions": 4
     },
     {
-      "name": "MIME-equipped-OUTERCLOTHING-vox",
-      "directions": 4
-    },
-    {
       "name": "MIME-inhand-left",
       "directions": 4
     },
@@ -103,10 +87,6 @@
     },
     {
       "name": "BAR-equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-    {
-      "name": "BAR-equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
     {
@@ -125,10 +105,6 @@
       "directions": 4
     },
     {
-      "name": "PARA-equipped-OUTERCLOTHING-vox",
-      "directions": 4
-    },
-    {
       "name": "PARA-inhand-left",
       "directions": 4
     },
@@ -141,10 +117,6 @@
     },
     {
       "name": "MINER-equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-    {
-      "name": "MINER-equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
     {
@@ -163,10 +135,6 @@
       "directions": 4
     },
     {
-      "name": "CARGO-equipped-OUTERCLOTHING-vox",
-      "directions": 4
-    },
-    {
       "name": "CARGO-inhand-left",
       "directions": 4
     },
@@ -179,10 +147,6 @@
     },
     {
       "name": "HYDRO-equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-    {
-      "name": "HYDRO-equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
     {
@@ -231,10 +195,6 @@
       "directions": 4
     },
     {
-      "name": "ENGI-equipped-OUTERCLOTHING-vox",
-      "directions": 4
-    },
-    {
       "name": "ENGI-inhand-left",
       "directions": 4
     },
@@ -247,10 +207,6 @@
     },
     {
       "name": "CAP-equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-    {
-      "name": "CAP-equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
     {
@@ -314,10 +270,6 @@
       "directions": 4
     },
     {
-      "name": "MED-equipped-OUTERCLOTHING-vox",
-      "directions": 4
-    },
-    {
       "name": "MED-inhand-left",
       "directions": 4
     },
@@ -330,10 +282,6 @@
     },
     {
       "name": "SEC-equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-    {
-      "name": "SEC-equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
     {
@@ -394,10 +342,6 @@
     },
     {
       "name": "CE-equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-    {
-      "name": "CE-equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
     {
@@ -532,14 +476,6 @@
     },
 	{
       "name": "winterbits-tan-equipped-OUTERCLOTHING",
-      "directions": 4
-    },
-	{
-      "name": "coatybits-equipped-OUTERCLOTHING-vox",
-      "directions": 4
-    },
-	{
-      "name": "winterbits-equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
 	{

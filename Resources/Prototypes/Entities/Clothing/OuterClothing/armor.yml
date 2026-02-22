@@ -207,9 +207,6 @@
       outerClothing:
       - state: equipped-OUTERCLOTHING-light
         shader: unshaded
-      outerClothing-vox:
-      - state: equipped-OUTERCLOTHING-light-vox
-        shader: unshaded
   - type: Appearance
   - type: HandheldLight
     addPrefix: false

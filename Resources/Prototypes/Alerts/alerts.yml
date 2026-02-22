@@ -62,7 +62,7 @@
     - alertType: Corporeal
     - alertType: Stun
     - alertType: KnockedDown # goobstation
-    - category: Breathing # Vox gang not calling this oxygen
+    - category: Breathing
     - alertType: Thieving # funkystation - MTGA
     - category: Pressure
     - alertType: Bleed

@@ -12894,18 +12894,6 @@ entities:
     - type: Transform
       pos: 11.5,-10.5
       parent: 2
-- proto: AirAlarmVox
-  entities:
-  - uid: 125
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 16.5,-49.5
-      parent: 2
-    - type: DeviceList
-      devices:
-      - 11725
-      - 11858
 - proto: AirCanister
   entities:
   - uid: 126
@@ -83497,20 +83485,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#0055CCFF'
-- proto: GasVentPumpVox
-  entities:
-  - uid: 11820
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 12.5,-12.5
-      parent: 2
-  - uid: 11821
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 12.5,-9.5
-      parent: 2
 - proto: GasVentScrubber
   entities:
   - uid: 2072
@@ -84917,19 +84891,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#990000FF'
-- proto: GasVentScrubberVox
-  entities:
-  - uid: 11955
-    components:
-    - type: Transform
-      pos: 14.5,-9.5
-      parent: 2
-  - uid: 11956
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 12.5,-11.5
-      parent: 2
 - proto: Gauze
   entities:
   - uid: 11957
@@ -98043,13 +98004,6 @@ entities:
     components:
     - type: Transform
       pos: -31.529049,-68.521324
-      parent: 2
-- proto: PlushieVox
-  entities:
-  - uid: 14188
-    components:
-    - type: Transform
-      pos: 10.459725,-11.45332
       parent: 2
 - proto: PonderingOrb
   entities:

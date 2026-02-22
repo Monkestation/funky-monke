@@ -23,14 +23,6 @@
     {
       "name": "equipped-head-light",
       "directions": 4
-    },
-    {
-      "name": "equipped-head-vox",
-      "directions": 4
-    },
-    {
-      "name": "equipped-head-light-vox",
-      "directions": 4
     }
   ]
 }

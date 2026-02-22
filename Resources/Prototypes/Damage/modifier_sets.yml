@@ -246,11 +246,6 @@
     Heat: 1.2
 
 - type: damageModifierSet
-  id: Vox
-  coefficients: # To be decided
-    Poison: 1
-
-- type: damageModifierSet
   id: Zombie #Blunt resistant and immune to biological threats, but can be hacked apart and burned
   coefficients:
     Blunt: 0.5 #funkystation

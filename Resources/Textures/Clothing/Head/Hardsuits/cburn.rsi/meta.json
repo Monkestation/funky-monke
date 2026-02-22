@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Made by 𝘽𝙚𝙡𝙖𝙮#7441. Vox states by Flareguy for SS14",
+  "copyright": "Made by 𝘽𝙚𝙡𝙖𝙮#7441.",
   "size": {
     "x": 32,
     "y": 32
@@ -25,14 +25,6 @@
     },
     {
       "name": "equipped-head-unshaded",
-      "directions": 4
-    },
-    {
-      "name": "equipped-head-vox",
-      "directions": 4
-    },
-    {
-      "name": "equipped-head-unshaded-vox",
       "directions": 4
     }
   ]

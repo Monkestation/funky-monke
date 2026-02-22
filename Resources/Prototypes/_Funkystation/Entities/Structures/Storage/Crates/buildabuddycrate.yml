@@ -141,40 +141,6 @@
 
 - type: entity
   parent: CrateGeneric
-  id: CrateBuildABuddyVox
-  name: build-a-buddy
-  suffix: Vox
-  description: "\"Viskaravase the Vox\" Build-a-Buddy kit. Some assembly required."
-  components:
-  - type: Icon
-    sprite: _Funkystation/Structures/Storage/Crates/buildabuddy.rsi
-  - type: Sprite
-    sprite: _Funkystation/Structures/Storage/Crates/buildabuddy.rsi
-  - type: StorageFill
-    contents:
-    - id: TorsoVox
-      amount: 1
-    - id: HeadVox
-      amount: 1
-    - id: LeftArmVox
-      amount: 1
-    - id: RightArmVox
-      amount: 1
-    - id: LeftHandVox
-      amount: 1
-    - id: RightHandVox
-      amount: 1
-    - id: LeftLegVox
-      amount: 1
-    - id: RightLegVox
-      amount: 1
-    - id: LeftFootVox
-      amount: 1
-    - id: RightFootVox
-      amount: 1
-
-- type: entity
-  parent: CrateGeneric
   id: CrateBuildABuddyDiona
   name: build-a-buddy
   suffix: Diona

@@ -48,18 +48,6 @@
     duration: 12
     polymorphSound: /Audio/_DV/CosmicCult/ability_lapse.ogg
 
-
-- type: polymorph
-  id: CosmicLapseMobVox
-  configuration:
-    entity: CosmicPolymorphEntVox
-    forced: true
-    inventory: None
-    transferName: false
-    transferDamage: true
-    duration: 12
-    polymorphSound: /Audio/_DV/CosmicCult/ability_lapse.ogg
-
 - type: polymorph
   id: CosmicLapseMobSnail
   configuration:
@@ -178,17 +166,6 @@
     sprite: _DV/CosmicCult/Effects/ability_lapsepolymorph.rsi
     layers:
       - state: moth
-        shader: unshaded
-
-- type: entity
-  categories: [ HideSpawnMenu ]
-  parent: CosmicPolymorphEnt
-  id: CosmicPolymorphEntVox
-  components:
-  - type: Sprite
-    sprite: _DV/CosmicCult/Effects/ability_lapsepolymorph.rsi
-    layers:
-      - state: vox
         shader: unshaded
 
 - type: entity

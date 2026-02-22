@@ -113,8 +113,6 @@
         orGroup: GiftPool
       - id: PlushieSnake
         orGroup: GiftPool
-      - id: PlushieVox
-        orGroup: GiftPool
       - id: PlushieRatvar
         orGroup: GiftPool
       - id: PlushieSpaceLizard

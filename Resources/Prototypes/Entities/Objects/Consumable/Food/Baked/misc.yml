@@ -61,9 +61,6 @@
           Quantity: 5
   - type: Item
     size: Tiny
-  - type: Tag
-    tags:
-    - VoxFood
 
 # Muffins
 
@@ -1250,7 +1247,7 @@
         - ReagentId: Vitamin
           Quantity: 10
         - ReagentId: Cheesium
-          Quantity: 2          
+          Quantity: 2
 
 - type: entity
   parent: FoodBakedBase
@@ -1285,4 +1282,4 @@
         - ReagentId: Vitamin
           Quantity: 5
         - ReagentId: Cheesium
-          Quantity: 2          
+          Quantity: 2

@@ -90,7 +90,6 @@
         weight: 0.25
       - id: PlushieRainbowCarp
         weight: 0.15
-    - id: PlushieVox
     - id: PlushieRouny
     - !type:GroupSelector
       children:

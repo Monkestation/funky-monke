@@ -19022,19 +19022,6 @@ entities:
       - 8716
       - 8686
       - 8600
-- proto: AirAlarmVox
-  entities:
-  - uid: 76
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -18.5,13.5
-      parent: 2
-    - type: DeviceList
-      devices:
-      - 11559
-      - 11737
-      - 454
 - proto: AirCanister
   entities:
   - uid: 77
@@ -21846,17 +21833,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 68
-- proto: AirSensorVox
-  entities:
-  - uid: 454
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -16.5,14.5
-      parent: 2
-    - type: DeviceNetwork
-      deviceLists:
-      - 76
 - proto: AirTank
   entities:
   - uid: 455
@@ -23842,98 +23818,6 @@ entities:
     components:
     - type: Transform
       pos: -90.5,57.5
-      parent: 2
-- proto: AtmosFixVoxMarker
-  entities:
-  - uid: 780
-    components:
-    - type: Transform
-      pos: -15.5,14.5
-      parent: 2
-  - uid: 781
-    components:
-    - type: Transform
-      pos: -15.5,11.5
-      parent: 2
-  - uid: 782
-    components:
-    - type: Transform
-      pos: -15.5,10.5
-      parent: 2
-  - uid: 783
-    components:
-    - type: Transform
-      pos: -15.5,12.5
-      parent: 2
-  - uid: 784
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 2
-  - uid: 785
-    components:
-    - type: Transform
-      pos: -15.5,13.5
-      parent: 2
-  - uid: 786
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 2
-  - uid: 787
-    components:
-    - type: Transform
-      pos: -15.5,15.5
-      parent: 2
-  - uid: 788
-    components:
-    - type: Transform
-      pos: -16.5,13.5
-      parent: 2
-  - uid: 789
-    components:
-    - type: Transform
-      pos: -16.5,12.5
-      parent: 2
-  - uid: 790
-    components:
-    - type: Transform
-      pos: -16.5,11.5
-      parent: 2
-  - uid: 791
-    components:
-    - type: Transform
-      pos: -16.5,10.5
-      parent: 2
-  - uid: 792
-    components:
-    - type: Transform
-      pos: -17.5,15.5
-      parent: 2
-  - uid: 793
-    components:
-    - type: Transform
-      pos: -17.5,14.5
-      parent: 2
-  - uid: 794
-    components:
-    - type: Transform
-      pos: -17.5,13.5
-      parent: 2
-  - uid: 795
-    components:
-    - type: Transform
-      pos: -17.5,12.5
-      parent: 2
-  - uid: 796
-    components:
-    - type: Transform
-      pos: -17.5,11.5
-      parent: 2
-  - uid: 797
-    components:
-    - type: Transform
-      pos: -17.5,10.5
       parent: 2
 - proto: Autoclave
   entities:
@@ -63405,13 +63289,6 @@ entities:
     - type: Transform
       pos: -21.5,56.5
       parent: 2
-- proto: DefaultStationBeaconVox
-  entities:
-  - uid: 7462
-    components:
-    - type: Transform
-      pos: -16.5,12.5
-      parent: 2
 - proto: DefaultStationBeaconWardensOffice
   entities:
   - uid: 7463
@@ -93521,17 +93398,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#0335FCFF'
-- proto: GasVentPumpVox
-  entities:
-  - uid: 11559
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -16.5,11.5
-      parent: 2
-    - type: DeviceNetwork
-      deviceLists:
-      - 76
 - proto: GasVentScrubber
   entities:
   - uid: 11560
@@ -95084,26 +94950,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -12.5,8.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF1212FF'
-- proto: GasVentScrubberVox
-  entities:
-  - uid: 11737
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF1212FF'
-    - type: DeviceNetwork
-      deviceLists:
-      - 76
-  - uid: 11738
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -16.5,10.5
       parent: 2
     - type: AtmosPipeColor
       color: '#FF1212FF'
@@ -121319,18 +121165,6 @@ entities:
     - type: Transform
       pos: 5.5,20.5
       parent: 2
-- proto: SignVox
-  entities:
-  - uid: 15988
-    components:
-    - type: Transform
-      pos: -14.5,16.5
-      parent: 2
-  - uid: 15989
-    components:
-    - type: Transform
-      pos: -14.5,9.5
-      parent: 2
 - proto: SingularityGenerator
   entities:
   - uid: 5492
@@ -124717,7 +124551,7 @@ entities:
       pos: -15.5,15.5
       parent: 2
     - type: SurveillanceCamera
-      id: Vox Room
+      id: Unused Room
 - proto: SurveillanceCameraSupply
   entities:
   - uid: 16485

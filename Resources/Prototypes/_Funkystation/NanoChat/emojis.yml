@@ -265,13 +265,6 @@
     state: plushie_snake
 
 - type: nanoChatEmoji
-  id: vox
-  category: Plushies
-  sprite:
-    sprite: /Textures/Objects/Fun/toys.rsi
-    state: plushie_vox
-
-- type: nanoChatEmoji
   id: diona
   category: Plushies
   sprite: /Textures/_Funkystation/Interface/NanoChat/Emotes/plushie_diona.png
@@ -351,6 +344,6 @@
 - type: nanoChatEmoji
   id: brick
   category: Misc
-  sprite: 
+  sprite:
     sprite: /Textures/_Funkystation/Objects/Misc/brick.rsi
     state: brick

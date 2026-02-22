@@ -143,7 +143,7 @@ malfai-viewport-desc = Select a tile to center a remote viewport window on it.
 # =====================
 # Action Validation Messages
 # =====================
-#Detonate RCDs
+# Detonate RCDs
 detonate_rcd_warning = You feel your RCD rapidly overheating!
 
 # Doomsday Protocol

@@ -11417,13 +11417,6 @@ entities:
     - type: Transform
       pos: -1.5,-12.5
       parent: 104
-- proto: PlushieVox
-  entities:
-  - uid: 2314
-    components:
-    - type: Transform
-      pos: 1.5,-16.5
-      parent: 104
 - proto: PortableScrubber
   entities:
   - uid: 811

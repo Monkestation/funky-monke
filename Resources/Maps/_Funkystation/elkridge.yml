@@ -85469,13 +85469,6 @@ entities:
     - type: Transform
       pos: 38.38096,24.430704
       parent: 2
-- proto: PlushieVox
-  entities:
-  - uid: 12227
-    components:
-    - type: Transform
-      pos: 38.28721,25.680704
-      parent: 2
 - proto: PortableGeneratorJrPacman
   entities:
   - uid: 923

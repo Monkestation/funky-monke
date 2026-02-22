@@ -212,35 +212,6 @@
 
 - type: entity
   name: Build-a-Buddy kit
-  suffix: Vox
-  parent: BoxHug
-  id: BoxBuildABuddyVox
-  description: "\"Viskaravase the Vox\" Build-a-Buddy kit. Some assembly required."
-  components:
-  - type: StorageFill
-    contents:
-    - id: OrganHumanEyes
-      amount: 1
-    - id: OrganVoxLungs
-      amount: 1
-    - id: OrganHumanHeart
-      amount: 1
-    - id: OrganHumanStomach
-      amount: 1
-    - id: OrganHumanLiver
-      amount: 1
-    - id: OrganHumanKidneys
-      amount: 1
-  - type: Storage
-    maxItemSize: Huge
-    grid:
-    - 0,0,6,4
-    whitelist:
-      components:
-      - Organ
-
-- type: entity
-  name: Build-a-Buddy kit
   suffix: Diona
   parent: BoxHug
   id: BoxBuildABuddyDiona

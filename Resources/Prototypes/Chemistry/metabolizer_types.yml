@@ -40,10 +40,6 @@
   name: metabolizer-type-slime
 
 - type: metabolizerType
-  id: Vox
-  name: metabolizer-type-vox
-
-- type: metabolizerType
   id: Rat
   name: metabolizer-type-rat
 

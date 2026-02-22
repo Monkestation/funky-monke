@@ -58,7 +58,6 @@
   - type: Tag
     tags:
     - Bread
-    - VoxFood
   - type: SolutionContainerManager
     solutions:
       food:
@@ -300,7 +299,7 @@
         - ReagentId: Vitamin
           Quantity: 5
         - ReagentId: Cheesium
-          Quantity: 4          
+          Quantity: 4
 # Tastes like bread, cheese.
 
 - type: entity
@@ -328,7 +327,7 @@
         - ReagentId: Vitamin
           Quantity: 1
         - ReagentId: Cheesium
-          Quantity: 0.8          
+          Quantity: 0.8
 
 - type: entity
   name: meat bread
@@ -356,7 +355,7 @@
         - ReagentId: Protein
           Quantity: 10
         - ReagentId: Cheesium
-          Quantity: 4          
+          Quantity: 4
   - type: Tag
     tags:
     - Meat
@@ -562,7 +561,7 @@
         - ReagentId: Protein
           Quantity: 10
         - ReagentId: Cheesium
-          Quantity: 4          
+          Quantity: 4
   - type: Tag
     tags:
     - Meat
@@ -591,10 +590,10 @@
         - ReagentId: Nutriment
           Quantity: 5
         - ReagentId: Protein
-          Quantity: 2        
+          Quantity: 2
         - ReagentId: Cheesium
           Quantity: 0.8
-          
+
   - type: Tag
     tags:
     - Meat

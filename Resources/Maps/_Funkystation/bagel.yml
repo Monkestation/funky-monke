@@ -13553,17 +13553,6 @@ entities:
     - type: Transform
       pos: -66.4905,-33.51445
       parent: 60
-- proto: AirAlarmVox
-  entities:
-  - uid: 21965
-    components:
-    - type: Transform
-      pos: -12.5,6.5
-      parent: 60
-    - type: DeviceList
-      devices:
-      - 28114
-      - 21961
 - proto: AirCanister
   entities:
   - uid: 2052
@@ -18435,120 +18424,6 @@ entities:
     components:
     - type: Transform
       pos: -45.5,40.5
-      parent: 60
-- proto: AtmosFixVoxMarker
-  entities:
-  - uid: 28123
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -12.5,5.5
-      parent: 60
-  - uid: 28124
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -12.5,4.5
-      parent: 60
-  - uid: 28125
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -12.5,3.5
-      parent: 60
-  - uid: 28126
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -12.5,2.5
-      parent: 60
-  - uid: 28127
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -13.5,5.5
-      parent: 60
-  - uid: 28128
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -13.5,4.5
-      parent: 60
-  - uid: 28129
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -13.5,3.5
-      parent: 60
-  - uid: 28130
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -13.5,2.5
-      parent: 60
-  - uid: 28131
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -14.5,5.5
-      parent: 60
-  - uid: 28132
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -14.5,4.5
-      parent: 60
-  - uid: 28133
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -14.5,3.5
-      parent: 60
-  - uid: 28134
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -14.5,2.5
-      parent: 60
-  - uid: 28135
-    components:
-    - type: Transform
-      pos: -15.5,4.5
-      parent: 60
-  - uid: 28136
-    components:
-    - type: Transform
-      pos: -15.5,3.5
-      parent: 60
-  - uid: 28137
-    components:
-    - type: Transform
-      pos: -15.5,2.5
-      parent: 60
-  - uid: 28138
-    components:
-    - type: Transform
-      pos: -16.5,4.5
-      parent: 60
-  - uid: 28139
-    components:
-    - type: Transform
-      pos: -16.5,3.5
-      parent: 60
-  - uid: 28140
-    components:
-    - type: Transform
-      pos: -16.5,2.5
-      parent: 60
-  - uid: 28141
-    components:
-    - type: Transform
-      pos: -16.5,5.5
-      parent: 60
-  - uid: 28142
-    components:
-    - type: Transform
-      pos: -16.5,6.5
       parent: 60
 - proto: Autolathe
   entities:
@@ -114294,17 +114169,6 @@ entities:
       - 28101
     - type: AtmosPipeColor
       color: '#0055CCFF'
-- proto: GasVentPumpVox
-  entities:
-  - uid: 28114
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -12.5,4.5
-      parent: 60
-    - type: DeviceNetwork
-      deviceLists:
-      - 21965
 - proto: GasVentScrubber
   entities:
   - uid: 871
@@ -115983,19 +115847,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 28405
-    - type: AtmosPipeColor
-      color: '#990000FF'
-- proto: GasVentScrubberVoxAlt2
-  entities:
-  - uid: 21961
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -16.5,4.5
-      parent: 60
-    - type: DeviceNetwork
-      deviceLists:
-      - 21965
     - type: AtmosPipeColor
       color: '#990000FF'
 - proto: GasVolumePump
@@ -151119,13 +150970,6 @@ entities:
     components:
     - type: Transform
       pos: 46.5,-30.5
-      parent: 60
-- proto: SignVox
-  entities:
-  - uid: 21967
-    components:
-    - type: Transform
-      pos: -15.5,6.5
       parent: 60
 - proto: SilverReactorHeatExchanger
   entities:

@@ -1268,13 +1268,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 2.27949,-0.47790605
       parent: 1
-- proto: PlushieVox
-  entities:
-  - uid: 134
-    components:
-    - type: Transform
-      pos: -0.5571752,-4.2839594
-      parent: 1
 - proto: PosterLegitFruitBowl
   entities:
   - uid: 135

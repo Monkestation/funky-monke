@@ -161,7 +161,6 @@
   loadouts:
   - EmergencyNitrogen
   - EmergencyOxygen
-  - LoadoutSpeciesVoxNitrogen
   - EmergencyIPCBox # DeltaV
 
 # nitrogen or oxygen tank, depending on what your species needs
@@ -172,14 +171,6 @@
   loadouts:
   - LoadoutSpeciesEVANitrogen
   - LoadoutSpeciesEVAOxygen
-
-# vox get a nitrogen tank, other species get nothing
-- type: loadoutGroup
-  id: GroupEVATankVox
-  name: loadout-group-vox-tank
-  hidden: true
-  loadouts:
-  - LoadoutSpeciesVoxNitrogen
 
 - type: loadoutGroup
   id: GroupPocketTankDouble
@@ -821,7 +812,6 @@
   loadouts:
   - EmergencyNitrogenClown
   - EmergencyOxygenClown
-  - LoadoutSpeciesVoxNitrogen
   - EmergencyIPCBox # Funky
 
 - type: loadoutGroup #WizDen Weh Job Plush
@@ -887,7 +877,6 @@
   - EmergencyNitrogenMime
   - EmergencyOxygenMime
   - EmergencySpeciesMothMime
-  - LoadoutSpeciesVoxNitrogen
   - EmergencyIPCBox # Funky
 
 - type: loadoutGroup #WizDen Weh Job Plush
@@ -1155,7 +1144,6 @@
   loadouts:
   - EmergencyNitrogenExtendedSalvage
   - EmergencyOxygenExtendedSalvage
-  - LoadoutSpeciesVoxNitrogen
   - EmergencyIPCBox # Funky
 
 # Engineering
@@ -1386,7 +1374,6 @@
   loadouts:
   - EmergencyNitrogenExtended
   - EmergencyOxygenExtended
-  - LoadoutSpeciesVoxNitrogen
   - EmergencyIPCBox # Funky
 
 # Science
@@ -1798,7 +1785,6 @@
   loadouts:
   - EmergencyNitrogenSecurity
   - EmergencyOxygenSecurity
-  - LoadoutSpeciesVoxNitrogen
   - EmergencyIPCBox # Funky
 
 - type: loadoutGroup
@@ -2162,7 +2148,6 @@
   loadouts:
   - EmergencyNitrogenMedical
   - EmergencyOxygenMedical
-  - LoadoutSpeciesVoxNitrogen
   - EmergencyIPCBox # Funky
 
 # Wildcards
@@ -2244,7 +2229,6 @@
   loadouts:
   - EmergencyNitrogenSyndicate
   - EmergencyOxygenSyndicate
-  - LoadoutSpeciesVoxNitrogen
   - EmergencyIPCBox # Funky
 
 - type: loadoutGroup

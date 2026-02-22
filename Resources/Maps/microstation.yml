@@ -2740,14 +2740,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -8.5,-10.5
       parent: 1
-- proto: SpawnMobCeledonRaptor
-  entities:
-  - uid: 415
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -12.5,-14.5
-      parent: 1
 - proto: SpawnMobCorgi
   entities:
   - uid: 252

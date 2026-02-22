@@ -412,12 +412,6 @@
     state: viro
 
 - type: decal
-  id: FloorSignVoxBox
-  sprite:
-    sprite: Decals/floor_signs.rsi
-    state: voxbox
-
-- type: decal
   id: FloorSignXenoarch
   sprite:
     sprite: Decals/floor_signs.rsi

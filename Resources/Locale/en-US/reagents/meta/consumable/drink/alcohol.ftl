@@ -204,7 +204,7 @@ reagent-name-jack-rose = Jack rose
 reagent-desc-jack-rose = Excessively Red.
 
 reagent-name-jungle-bird = jungle bird
-reagent-desc-jungle-bird = Despite the name, it’s not exceptionally popular among Voxes.
+reagent-desc-jungle-bird = Despite the name, it’s not exceptionally popular among birds.
 
 reagent-name-kalimotxo = kalimotxo
 reagent-desc-kalimotxo = A high-class Cuba Libre, for the discerning alcoholic.

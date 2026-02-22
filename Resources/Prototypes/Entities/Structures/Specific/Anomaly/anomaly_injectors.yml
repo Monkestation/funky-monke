@@ -62,10 +62,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: fire
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: fire_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -92,10 +88,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: shock
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: shock_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -122,10 +114,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: shadow
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: shadow_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -152,10 +140,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: frost
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: frost_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -182,10 +166,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: flora
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: flora_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -212,10 +192,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: bluespace
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: bluespace_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -242,10 +218,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: flesh
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: flesh_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -272,10 +244,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: grav
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: grav_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -302,10 +270,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: tech
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: tech_VOX
 
 - type: entity
   parent: BaseAnomalyInjector
@@ -333,10 +297,6 @@
         fallbackSprite:
           sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: rock
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: rock_VOX
 
 - type: entity
   parent: BaseAnomalyInjector

@@ -148538,18 +148538,6 @@ entities:
     - type: Transform
       pos: -33.452324,108.3133
       parent: 2
-- proto: PlushieVox
-  entities:
-  - uid: 16860
-    components:
-    - type: Transform
-      pos: -131.61572,105.58053
-      parent: 2
-  - uid: 23920
-    components:
-    - type: Transform
-      pos: -40.57216,87.677414
-      parent: 2
 - proto: PortableFlasher
   entities:
   - uid: 9199

@@ -1102,38 +1102,6 @@
 
 - type: entity
   parent: BasePlushie
-  id: PlushieVox
-  name: vox plushie
-  description: SKREEEEEEEEEEEE!
-  components:
-  - type: Sprite
-    state: plushie_vox
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Voice/Vox/shriek1.ogg
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Voice/Vox/shriek1.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/Voice/Vox/shriek1.ogg
-  - type: EmitSoundOnTrigger
-    sound:
-      path: /Audio/Voice/Vox/shriek1.ogg
-  - type: EmitSoundOnCollide
-    sound:
-      path: /Audio/Voice/Vox/shriek1.ogg
-  - type: Food
-    requiresSpecialDigestion: true
-    useSound:
-      path: /Audio/Voice/Vox/shriek1.ogg
-  - type: MeleeWeapon
-    wideAnimationRotation: 180
-    soundHit:
-      path: /Audio/Voice/Vox/shriek1.ogg
-
-- type: entity
-  parent: BasePlushie
   id: PlushieAtmosian
   name: atmosian plushie
   description: An adorable stuffed toy that resembles a brave atmosian. Unfortunately, he won't fix those depressurizations for you.

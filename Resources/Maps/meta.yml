@@ -16629,17 +16629,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 28423
-- proto: AirSensorVox
-  entities:
-  - uid: 14658
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -15.5,-35.5
-      parent: 5350
-    - type: DeviceNetwork
-      deviceLists:
-      - 353
 - proto: AltarConvertMaint
   entities:
   - uid: 20707

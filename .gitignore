@@ -475,8 +475,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/access/ui/door-electronics-window.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/accessories/human-facial-hair.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/accessories/human-hair.ftl
-/release-funny/SS14.Server_win-x64/Resources/Locale/en-US/accessories/vox-facial-hair.ftl
-/release-funny/SS14.Server_win-x64/Resources/Locale/en-US/accessories/vox-hair.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/actions/actions/actions-commands.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/actions/actions/blocking.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/actions/actions/combat-mode.ftl
@@ -1068,7 +1066,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/markings/scars.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/markings/slimeperson.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/markings/tattoos.ftl
-/release-funny/SS14.Server_win-x64/Resources/Locale/en-US/markings/vox_tattoos.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/mass-media/news-ui.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/materials/materials.ftl
 /release-funny/SS14.Server_win-x64/Resources/Locale/en-US/materials/units.ftl
@@ -1660,7 +1657,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Organs/rat.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Organs/reptilian.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Organs/slime.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Organs/vox.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Parts/animal.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Parts/arachnid.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Parts/base.yml
@@ -1673,7 +1669,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Parts/silicon.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Parts/skeleton.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Parts/slime.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Parts/vox.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Prototypes/Animal/animal.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Prototypes/Animal/bloodsucker.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Prototypes/Animal/hemocyanin.yml
@@ -1694,7 +1689,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Prototypes/reptilian.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Prototypes/skeleton.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Prototypes/slime.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Body/Prototypes/vox.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Catalog/Arcade/advertisements.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Catalog/Arcade/goodbyes.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Catalog/Bounties/bounties.yml
@@ -1886,7 +1880,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Datasets/Names/rollie.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Datasets/Names/skeleton_first.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Datasets/Names/syndicate.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Datasets/Names/vox.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Datasets/Names/wizard_first.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Datasets/Names/wizard_last.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Datasets/adjectives.yml
@@ -2149,10 +2142,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Customization/Markings/scars.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Customization/Markings/slime.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Customization/Markings/tattoos.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Customization/Markings/vox_facial_hair.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Customization/Markings/vox_hair.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Customization/Markings/vox_parts.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Customization/Markings/vox_tattoos.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Cyborgs/base_borg_chassis.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Cyborgs/borg_chassis.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Debugging/debug_counter.yml
@@ -2203,7 +2192,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Player/silicon.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Player/skeleton.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Player/slime.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Player/vox.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Species/arachnid.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Species/base.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Species/diona.yml
@@ -2214,7 +2202,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Species/reptilian.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Species/skeleton.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Species/slime.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/Species/vox.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Mobs/base.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks-cartons.yml
@@ -2740,7 +2727,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Structures/Specific/Anomaly/anomalies.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Structures/Specific/Anomaly/cores.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Structures/Specific/Atmospherics/sensor.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Structures/Specific/Atmospherics/vox.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Structures/Specific/Janitor/drain.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Structures/Specific/Janitor/janicart.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Entities/Structures/Specific/church-bell.yml
@@ -3605,7 +3591,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Species/skeleton.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Species/slime.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Species/species_weights.yml
-/release-funny/SS14.Server_win-x64/Resources/Prototypes/Species/vox.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Stacks/Materials/Sheets/glass.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Stacks/Materials/Sheets/metal.yml
 /release-funny/SS14.Server_win-x64/Resources/Prototypes/Stacks/Materials/Sheets/other.yml
@@ -3740,7 +3725,6 @@ Resources/MapImages
 /release-funny/SS14.Server_win-x64/Resources/ServerInfo/Guidebook/Mobs/Reptilian.xml
 /release-funny/SS14.Server_win-x64/Resources/ServerInfo/Guidebook/Mobs/SlimePerson.xml
 /release-funny/SS14.Server_win-x64/Resources/ServerInfo/Guidebook/Mobs/Species.xml
-/release-funny/SS14.Server_win-x64/Resources/ServerInfo/Guidebook/Mobs/Vox.xml
 /release-funny/SS14.Server_win-x64/Resources/ServerInfo/Guidebook/NewPlayer/Controls/Controls.xml
 /release-funny/SS14.Server_win-x64/Resources/ServerInfo/Guidebook/NewPlayer/Controls/Radio.xml
 /release-funny/SS14.Server_win-x64/Resources/ServerInfo/Guidebook/NewPlayer/CharacterCreation.xml

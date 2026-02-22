@@ -23,7 +23,6 @@
   - !type:SpeciesLoadoutEffect
     species:
     - SlimePerson
-    - Vox
 
 - type: loadoutEffectGroup
   id: OxygenBreather
@@ -42,13 +41,6 @@
     - Gingerbread
     - Rodentia
     - Thaven
-
-- type: loadoutEffectGroup
-  id: EffectSpeciesVox
-  effects:
-  - !type:SpeciesLoadoutEffect
-    species:
-    - Vox
 
 # Basic
 - type: loadout
@@ -232,16 +224,6 @@
 
 # Pre-equipped species gear
 
-# Full tank for vox as part of any Survival loadout
-- type: loadout
-  id: LoadoutSpeciesVoxNitrogen
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: EffectSpeciesVox
-  equipment:
-    tankstorage: NitrogenTankFilled
-    neck: ClothingNeckTankHarness
-
 # Full EVA Tank, Any Species
 - type: loadout
   id: LoadoutSpeciesEVANitrogen
@@ -275,37 +257,3 @@
     proto: OxygenBreather
   equipment:
     pocket1: DoubleEmergencyOxygenTankFilled
-
-# Tank Harness
-- type: loadout
-  id: LoadoutTankHarness
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: EffectSpeciesVox
-  equipment:
-    neck: ClothingNeckTankHarness
-
-# Breath Tool On Face
-- type: loadout
-  id: LoadoutSpeciesBreathTool
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: EffectSpeciesVox
-  equipment:
-    mask: ClothingMaskBreath
-
-- type: loadout
-  id: LoadoutSpeciesBreathToolMedical
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: EffectSpeciesVox
-  equipment:
-    mask: ClothingMaskBreathMedical
-
-- type: loadout
-  id: LoadoutSpeciesBreathToolSecurity
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: EffectSpeciesVox
-  equipment:
-    mask: ClothingMaskGasSecurity

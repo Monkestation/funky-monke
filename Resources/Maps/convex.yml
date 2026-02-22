@@ -19324,41 +19324,6 @@ entities:
     - type: Transform
       pos: 97.5,24.5
       parent: 1
-- proto: AirAlarmVox
-  entities:
-  - uid: 17093
-    components:
-    - type: MetaData
-      name: chemistry air alarm
-    - type: Transform
-      pos: 88.5,105.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 3312
-      - 17003
-      - 18048
-      - 17004
-      - 17020
-      - 2013
-      - 3332
-      - 3169
-  - uid: 17096
-    components:
-    - type: MetaData
-      name: chemistry desk north air alarm
-    - type: Transform
-      pos: 85.5,111.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 3332
-      - 17019
-      - 17022
-      - 17021
-      - 17076
-      - 17095
-      - 17074
 - proto: AirCanister
   entities:
   - uid: 2716
@@ -25246,16 +25211,6 @@ entities:
     - type: Transform
       pos: 106.5,41.5
       parent: 1
-- proto: AirSensorVox
-  entities:
-  - uid: 20361
-    components:
-    - type: Transform
-      pos: 47.5,107.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 20362
 - proto: AirTank
   entities:
   - uid: 20941

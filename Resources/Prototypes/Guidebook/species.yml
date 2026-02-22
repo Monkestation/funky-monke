@@ -27,7 +27,6 @@
     - Felinid
     - Gingerbread
     - Harpy
-    - Vox
     - Rodentia
     # - IPC
     # ImpStation additions
@@ -83,11 +82,6 @@
   id: Harpy
   name: species-name-harpy
   text: "/ServerInfo/Guidebook/Mobs/Harpy.xml"
-
-- type: guideEntry
-  id: Vox
-  name: species-name-vox
-  text: "/ServerInfo/Guidebook/Mobs/Vox.xml"
 
 - type: guideEntry
   id: Rodentia

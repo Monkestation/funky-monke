@@ -40,7 +40,6 @@
   - DepartmentTitle
   - Barefoot
   - Hospitable
-  - VoxSymp
   - Smoker
   - EyeForEye
   - Optimist
@@ -282,12 +281,6 @@
   id: Hospitable
   moodName: thaven-mood-hospitable-name
   moodDesc: thaven-mood-hospitable-desc
-
-# Vox Sympathizer: To demonstrate your allyship for the Vox, you must be wearing internals at all times.
-- type: thavenMood
-  id: VoxSymp
-  moodName: thaven-mood-voxsymp-name
-  moodDesc: thaven-mood-voxsymp-desc
 
 # [ITEM]s are endlessly fascinating. You must collect as many as you can, and ensure others treat them with respect.
 - type: thavenMood

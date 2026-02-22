@@ -100,14 +100,6 @@
   - chat-speech-verb-slime-3
 
 - type: speechVerb
-  id: Vox
-  name: chat-speech-verb-name-vox
-  speechVerbStrings:
-  - chat-speech-verb-vox-1
-  - chat-speech-verb-vox-2
-  - chat-speech-verb-vox-3
-
-- type: speechVerb
   id: Plant
   name: chat-speech-verb-name-plant
   speechVerbStrings:

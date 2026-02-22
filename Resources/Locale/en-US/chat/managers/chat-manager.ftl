@@ -140,11 +140,6 @@ chat-speech-verb-skeleton-1 = rattles
 chat-speech-verb-skeleton-2 = clacks
 chat-speech-verb-skeleton-3 = gnashes
 
-chat-speech-verb-name-vox = Vox
-chat-speech-verb-vox-1 = screeches
-chat-speech-verb-vox-2 = shrieks
-chat-speech-verb-vox-3 = croaks
-
 chat-speech-verb-name-canine = Canine
 chat-speech-verb-canine-1 = barks
 chat-speech-verb-canine-2 = woofs

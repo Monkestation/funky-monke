@@ -177,8 +177,6 @@
       - state: equipped-HELMET
       head-reptilian:
       - state: equipped-HELMET-reptilian
-      head-vox:
-      - state: equipped-HELMET-vox
   - type: Armor
     modifiers:
       coefficients:

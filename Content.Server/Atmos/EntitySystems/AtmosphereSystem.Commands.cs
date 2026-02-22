@@ -85,7 +85,7 @@ public sealed partial class AtmosphereSystem
        mixtures[6].AdjustMoles(Gas.Nitrogen, Atmospherics.NitrogenMolesFreezer);
        mixtures[6].Temperature = Atmospherics.FreezerTemp; // Little colder than an actual freezer but gives a grace period to get e.g. themomachines set up, should keep warm for a few door openings
 
-       // 7: Nitrogen (101kpa) for vox rooms
+       // 7: Nitrogen (101kpa)
        mixtures[7].AdjustMoles(Gas.Nitrogen, Atmospherics.MolesCellStandard);
 
        foreach (var arg in args)

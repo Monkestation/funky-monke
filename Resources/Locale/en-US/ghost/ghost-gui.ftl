@@ -33,7 +33,7 @@ ghost-gui-toggle-self-ghost-visibility-popup-off = Disabled visibility of your g
 
 ghost-gui-toggle-other-ghosts-visibility-popup-on = Enabled visibility of other ghosts.
 ghost-gui-toggle-other-ghosts-visibility-popup-off = Disabled visibility of other ghosts.
-#end Funkystation
+# end Funkystation
 
 ghost-gui-toggle-lighting-manager-popup-normal = Lighting normal.
 ghost-gui-toggle-lighting-manager-popup-personal-light = Enabled personal light.

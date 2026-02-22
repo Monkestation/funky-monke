@@ -97,9 +97,6 @@ thaven-mood-shoes-bad-desc = The ground one walks on is sacred. Those who wear s
 thaven-mood-hospitable-name = Hospitable
 thaven-mood-hospitable-desc = You must ensure all new arrivals on the station (after the start of the shift) are properly welcomed.
 
-thaven-mood-voxsymp-name = Vox Sympathizer
-thaven-mood-voxsymp-desc = To demonstrate your allyship with the Vox, you must be wearing internals at all times.
-
 thaven-mood-item-good-name = Collector
 thaven-mood-item-good-desc = {$item} are endlessly fascinating to you. You must collect as many as you can, and ensure others treat them with appropriate respect.
 

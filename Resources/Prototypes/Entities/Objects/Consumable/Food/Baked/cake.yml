@@ -73,7 +73,6 @@
   - type: Tag
     tags:
     - Cake
-    - VoxFood
 
 - type: entity
   parent: FoodCakeBase
@@ -369,7 +368,7 @@
         - ReagentId: Sugar
           Quantity: 15
         - ReagentId: Cheesium
-          Quantity: 4          
+          Quantity: 4
 
 - type: entity
   name: slice of cheese cake

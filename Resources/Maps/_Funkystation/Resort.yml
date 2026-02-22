@@ -237775,13 +237775,6 @@ entities:
     - type: Transform
       pos: 16.519936,60.53033
       parent: 2
-- proto: PlushieVox
-  entities:
-  - uid: 27096
-    components:
-    - type: Transform
-      pos: 17.488686,60.639706
-      parent: 2
 - proto: PlushieXeno
   entities:
   - uid: 27098
@@ -265195,14 +265188,6 @@ entities:
     components:
     - type: Transform
       pos: -0.5,-66.5
-      parent: 2
-- proto: SpawnMobCeledonRaptor
-  entities:
-  - uid: 49364
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 31.5,-1.5
       parent: 2
 - proto: SpawnMobCorgi
   entities:

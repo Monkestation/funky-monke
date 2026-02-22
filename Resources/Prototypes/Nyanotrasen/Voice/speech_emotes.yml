@@ -20,7 +20,6 @@
     - FelinidEmotes
     - HarpyEmotes
     - LizardEmotes
-    - VoxEmotes
   blacklist:
     components:
     - BorgChassis

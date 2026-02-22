@@ -13,7 +13,6 @@
 //
 // SPDX-License-Identifier: MIT
 
-using Content.Shared._Funkystation.Quirks;
 using Content.Shared.DisplacementMap;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
