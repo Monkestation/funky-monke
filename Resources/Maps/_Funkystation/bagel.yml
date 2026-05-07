@@ -19806,18 +19806,6 @@ entities:
         - 0
     - type: Foldable
       folded: True
-- proto: BohrumReactorControlRod
-  entities:
-  - uid: 16183
-    components:
-    - type: Transform
-      pos: 8.3865795,39.965843
-      parent: 60
-  - uid: 16228
-    components:
-    - type: Transform
-      pos: 8.515257,39.695686
-      parent: 60
 - proto: Bonfire
   entities:
   - uid: 26928
@@ -20589,30 +20577,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -24.5,-21.5
       parent: 60
-- proto: BrassReactorControlRod
-  entities:
-  - uid: 16282
-    components:
-    - type: Transform
-      pos: 8.1428795,39.815014
-      parent: 60
-    - type: ReactorPart
-      properties:
-        plasma_offgas: 0
-        molitz_bubbles: 0
-        spent_fuel: 0
-        n_radioactive: 0
-        radioactive: 0
-        chemical: 7
-        flammable: 1
-        reflective: 0
-        density: 5
-        hard: 2
-        thermal: 7
-        electrical: 6
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
 - proto: BrbSign
   entities:
   - uid: 21398
@@ -66155,16 +66119,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -65.26847,-4.2762003
       parent: 60
-- proto: CerenkiteReactorFuelRod
-  entities:
-  - uid: 16192
-    components:
-    - type: Transform
-      pos: 8.345892,42.578987
-      parent: 60
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
 - proto: Chair
   entities:
   - uid: 284
@@ -75085,16 +75039,6 @@ entities:
     - type: Physics
       canCollide: False
       bodyType: Static
-- proto: DiamondReactorHeatExchanger
-  entities:
-  - uid: 16233
-    components:
-    - type: Transform
-      pos: 6.762361,47.75407
-      parent: 60
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
 - proto: DiceBag
   entities:
   - uid: 14192
@@ -116181,54 +116125,6 @@ entities:
     - type: Transform
       pos: -59.5,53.5
       parent: 60
-- proto: GlassReactorControlRod
-  entities:
-  - uid: 16317
-    components:
-    - type: Transform
-      pos: 7.7568502,39.77642
-      parent: 60
-    - type: ReactorPart
-      properties:
-        plasma_offgas: 0
-        molitz_bubbles: 0
-        spent_fuel: 0
-        n_radioactive: 0
-        radioactive: 0
-        chemical: 5
-        flammable: 1
-        reflective: 0
-        density: 2
-        hard: 3
-        thermal: 3
-        electrical: 3
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-- proto: GlassReactorGasChannel
-  entities:
-  - uid: 16181
-    components:
-    - type: Transform
-      pos: 8.734007,45.7695
-      parent: 60
-- proto: GlassReactorHeatExchanger
-  entities:
-  - uid: 16232
-    components:
-    - type: Transform
-      pos: 6.5693474,47.908443
-      parent: 60
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-- proto: GoldReactorGasChannel
-  entities:
-  - uid: 16230
-    components:
-    - type: Transform
-      pos: 8.450918,45.846687
-      parent: 60
 - proto: GravityGenerator
   entities:
   - uid: 21968
@@ -131108,27 +131004,6 @@ entities:
     - type: Transform
       pos: 4.5,-5.5
       parent: 60
-- proto: NuclearCentrifuge
-  entities:
-  - uid: 28408
-    components:
-    - type: Transform
-      pos: 5.5,43.5
-      parent: 60
-- proto: NuclearFabricator
-  entities:
-  - uid: 11049
-    components:
-    - type: Transform
-      pos: 8.5,43.5
-      parent: 60
-- proto: NuclearReactorEmpty
-  entities:
-  - uid: 16340
-    components:
-    - type: Transform
-      pos: 0.5,42.5
-      parent: 60
 - proto: NutimovCircuitBoard
   entities:
   - uid: 24747
@@ -132223,13 +132098,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: PlasmaReactorFuelRod
-  entities:
-  - uid: 16190
-    components:
-    - type: Transform
-      pos: 8.429371,42.06492
-      parent: 60
 - proto: PlasmaReinforcedWindowDirectional
   entities:
   - uid: 3006
@@ -151183,16 +151051,6 @@ entities:
     - type: Transform
       pos: -15.5,6.5
       parent: 60
-- proto: SilverReactorHeatExchanger
-  entities:
-  - uid: 16176
-    components:
-    - type: Transform
-      pos: 6.363466,47.741207
-      parent: 60
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
 - proto: Sink
   entities:
   - uid: 162
@@ -153879,78 +153737,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -33.5,-15.5
-      parent: 60
-- proto: SteelReactorControlRod
-  entities:
-  - uid: 16217
-    components:
-    - type: Transform
-      pos: 7.3679504,39.916035
-      parent: 60
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-- proto: SteelReactorGasChannel
-  entities:
-  - uid: 16179
-    components:
-    - type: Transform
-      pos: 8.721138,45.43502
-      parent: 60
-  - uid: 16180
-    components:
-    - type: Transform
-      pos: 8.682536,45.126274
-      parent: 60
-  - uid: 16205
-    components:
-    - type: Transform
-      pos: 8.425184,45.20346
-      parent: 60
-  - uid: 16206
-    components:
-    - type: Transform
-      pos: 8.631065,44.85612
-      parent: 60
-  - uid: 16229
-    components:
-    - type: Transform
-      pos: 8.425184,45.525074
-      parent: 60
-  - uid: 16231
-    components:
-    - type: Transform
-      pos: 8.322241,44.94617
-      parent: 60
-- proto: SteelReactorHeatExchanger
-  entities:
-  - uid: 16177
-    components:
-    - type: Transform
-      pos: 7.83327,47.64655
-      parent: 60
-  - uid: 16178
-    components:
-    - type: Transform
-      pos: 7.1355224,47.702614
-      parent: 60
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-  - uid: 16281
-    components:
-    - type: Transform
-      pos: 7.39577,47.99389
-      parent: 60
-  - uid: 16284
-    components:
-    - type: Transform
-      pos: 7.4729767,47.710873
-      parent: 60
-  - uid: 16285
-    components:
-    - type: Transform
-      pos: 7.846138,47.99389
       parent: 60
 - proto: Stool
   entities:
@@ -160546,13 +160332,6 @@ entities:
     - type: Transform
       pos: 25.5,-13.5
       parent: 60
-- proto: Turbine
-  entities:
-  - uid: 22449
-    components:
-    - type: Transform
-      pos: 0.5,51.5
-      parent: 60
 - proto: Turnstile
   entities:
   - uid: 1737
@@ -160960,13 +160739,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 45.5,-44.5
-      parent: 60
-- proto: UraniumReactorFuelRod
-  entities:
-  - uid: 16219
-    components:
-    - type: Transform
-      pos: 8.701245,42.385685
       parent: 60
 - proto: UraniumReinforcedWindowDirectional
   entities:

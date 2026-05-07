@@ -13756,13 +13756,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 43.5,-40.5
       parent: 2
-- proto: BaseNuclearReactor
-  entities:
-  - uid: 10980
-    components:
-    - type: Transform
-      pos: 25.5,-49.5
-      parent: 2
 - proto: Basketball
   entities:
   - uid: 10804
@@ -41319,38 +41312,6 @@ entities:
     components:
     - type: Transform
       pos: 67.45054,-3.640809
-      parent: 2
-- proto: CerenkiteReactorFuelRod
-  entities:
-  - uid: 15665
-    components:
-    - type: Transform
-      pos: 15.319843,-47.338722
-      parent: 2
-  - uid: 15666
-    components:
-    - type: Transform
-      pos: 15.663593,-47.432537
-      parent: 2
-  - uid: 15667
-    components:
-    - type: Transform
-      pos: 15.319843,-47.682713
-      parent: 2
-  - uid: 15668
-    components:
-    - type: Transform
-      pos: 15.663593,-47.854706
-      parent: 2
-  - uid: 15669
-    components:
-    - type: Transform
-      pos: 15.319843,-48.089245
-      parent: 2
-  - uid: 15670
-    components:
-    - type: Transform
-      pos: 15.663593,-48.229965
       parent: 2
 - proto: Chair
   entities:
@@ -77875,20 +77836,6 @@ entities:
     - type: Transform
       pos: 18.5,42.5
       parent: 2
-- proto: NuclearCentrifuge
-  entities:
-  - uid: 6825
-    components:
-    - type: Transform
-      pos: 15.5,-49.5
-      parent: 2
-- proto: NuclearFabricator
-  entities:
-  - uid: 15646
-    components:
-    - type: Transform
-      pos: 15.5,-46.5
-      parent: 2
 - proto: NutimovCircuitBoard
   entities:
   - uid: 14282
@@ -78116,7 +78063,7 @@ entities:
 
             To Whom It May Concern:
 
-        Due to the increasing spesos deficit incurred by this station in prior shifts, [color=#009100]Central Command[/color] has made the executive decision to liquidate the [color=#f39f27]Engineering[/color] department's Thermo-electric Generator. 
+        Due to the increasing spesos deficit incurred by this station in prior shifts, [color=#009100]Central Command[/color] has made the executive decision to liquidate the [color=#f39f27]Engineering[/color] department's Thermo-electric Generator.
 
 
         Should [color=#f39f27]Engineering[/color] wish to make use of a Thermo-electric Generator in the future, consider purchasing one through your request computer.
@@ -94393,13 +94340,6 @@ entities:
     components:
     - type: Transform
       pos: 64.716286,25.630547
-      parent: 2
-- proto: Turbine
-  entities:
-  - uid: 10971
-    components:
-    - type: Transform
-      pos: 25.5,-56.5
       parent: 2
 - proto: TurnstileGenpopEnter
   entities:

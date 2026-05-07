@@ -21700,13 +21700,6 @@ entities:
     - type: Transform
       pos: 4.477848,12.69261
       parent: 2
-- proto: BaseNuclearReactor
-  entities:
-  - uid: 4223
-    components:
-    - type: Transform
-      pos: 13.5,111.5
-      parent: 2
 - proto: BassGuitarInstrument
   entities:
   - uid: 1993
@@ -23083,12 +23076,12 @@ entities:
         This book details the long and fantastic history of the station known today as NT14 Court, which started out as the most daring project of its era.
 
 
-        Drafted by Donk.co in 2908, the station plans envisioned a grand space mall that would have attracted denizens of planets from all over the sector. 
+        Drafted by Donk.co in 2908, the station plans envisioned a grand space mall that would have attracted denizens of planets from all over the sector.
 
         Sporting multiple docking arms, a powerful and extremely modern (for its time) singularity engine, grand gardened hallways with real plants and insects and multiple sections dedicated to all types of stores, it was to be the gleaming space jewel of the Donk corporation.
 
 
-        Unfortunately for the consumers of the sector, however, the project proved much harder to complete than first imagined. 
+        Unfortunately for the consumers of the sector, however, the project proved much harder to complete than first imagined.
 
 
         Starting with 2910 when the project had barely started, the excavation team, mining the anchor asteroid for resources, came upon an old temple filled with space carp and containing multiple treasures. This attracted the attention of space pirates, and in 2912, taking advantage of some contract disputes between Donk.co and its security detail, two pirate shuttles attacked the station as it had been left undefended, breaching the atmosphere on multiple levels and sacking it for most of its riches.
@@ -70360,13 +70353,6 @@ entities:
         - 0
         - 0
         - 0
-- proto: CrateCerenkiteFuelRod
-  entities:
-  - uid: 25830
-    components:
-    - type: Transform
-      pos: 12.5,108.5
-      parent: 2
 - proto: CrateChaplain
   entities:
   - uid: 25583
@@ -124966,20 +124952,6 @@ entities:
     - type: Transform
       pos: 16.5,8.5
       parent: 2
-- proto: NuclearCentrifuge
-  entities:
-  - uid: 25774
-    components:
-    - type: Transform
-      pos: 17.5,101.5
-      parent: 2
-- proto: NuclearFabricator
-  entities:
-  - uid: 25775
-    components:
-    - type: Transform
-      pos: 17.5,102.5
-      parent: 2
 - proto: NutimovCircuitBoard
   entities:
   - uid: 3714
@@ -125517,7 +125489,7 @@ entities:
       content: >-
         Hi boss!
 
-        Sorry I couldn't stay and show you this, had to go cryo early today, bladder issues. 
+        Sorry I couldn't stay and show you this, had to go cryo early today, bladder issues.
 
         Anyways, I prepared this room for a simple HFR setup, hopefully we can spend the next shift assembling the machine here and making cool gasses!
 
@@ -125869,15 +125841,6 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-  - uid: 25976
-    components:
-    - type: MetaData
-      name: nuclear reactor operation manual
-    - type: Transform
-      pos: 13.240326,108.28917
-      parent: 2
-    - type: Paper
-      content: "                                       ---NANOTRASEN---\n    ---STANDARD NUCLEAR REACTOR OPERATION MANUAL---\n\nA standard NanoTrasen nuclear reactor setup is comprised of three main elements:\n - the Nuclear reactor\n - the Turbine\n - the Gas loop\n\nBelow, these three main elements and their connections will be explained in detail, after which standard operation will be detailed.\n\n 1. The reactor:\nTo function, the reactor needs an input and output pipe, as well as various rods inserted in a specific pattern that allows for safe and sustainable power generation through the radiation emitted by fuel rods, usually cerenkite. \n\nThe fuel rods must be inserted in the empty slots on the reactor (inserting the rods one by one then using the console to move them), between the other rods. Once this is done, a nuclear reaction can occur, and gases flowing through will be heated up at a constant rate.\n\nNote that: \n- different gases react differently to the radiation\n- some gases such as tritium, generated from plasma input, can increase radiation output (use of a radsuit is then heavily recommended)\n- if the coolant gases get too hot, the reactor may get damaged and melt down. This must be avoided if possible, by the use of the coolant purge valve in case of emergency.\n- various rods of different function can be fabricated at a nuclear fabricator usually provided nearby\n- a nuclear centrifuge can be used to remove radioactivity from spent fuel rods\n\n 2. The turbine:\nThe turbine is the actual power generation device, and can theoretically produce power from sources other than nuclear heating. \nIt is important to note, however, that the nuclear generator is the most stable and sustainable way of generating power through the turbine, as gases too warm will lead to overtemperature and cease of function of the turbine.\n\nThe turbine cools down the gas that goes through it slightly, as some of the energy is used to rotate it. This creates a cold and hot side in the gas loop.\n\nThe turbine's gas throughput rate can be modified along with its stator load to achieve the highest efficiency and power output. having stator load and flow rate at the maximum values and the RPM in the green is ideal for power generation. \n\nNote that:\n- if the turbine spins too fast for too long, it will get damaged and can blow open, leading to a venting of the whole gas loop and expelling metal sheets in random directions, causing high damage to the surrounding infrastructure. repair any damage with a welder before any such explosion, and keep the turbine RPM below red to prevent this.\n- the turbine cannot be irreparably damaged; surviving a turbine explosion allows one to weld it back into shape for further use if it is deemed safe enough.\n- constant flow and stability are key for power generation. It is recommended to have one operator checking the turbine's RPM every thirty (30) seconds at least, tweaking values as necessary to achieve ideal RPM.\n\n 3. The gas loop:\nThe gas loop is simple and a novice to atmospherics work is capable of understanding its function quickly.\nThe loop is comprised of: \n- a gas input, which can provide the loop new gas by wrenching canisters of one's choice onto its connector ports and opening the valve or a pump of one's choice\n- a hot side (painted brown), which goes from the reactor's hot output to the turbine's hot input and intersects with the coolant purge valve\n- a cold side (painted teal), which goes from the turbine's cold output to the reactor's cold input and passes through filters \n- filters for removing gases of one's choice from the loop (either collecting them in provided canisters or pushing them into the waste pipe net for atmospherics technicians to filter or space)\n- an emergency coolant purge valve, to be used in emergency in order to prevent reactor meltdown\n\nNote that:\n- the passive gates in the gas loop prevent gas from going back through them, the gas can only go from the side with a valve to the side with no valve\n- the loop contains gas sensor pipes, which can be connected to air alarms (usually already built on a wall nearby) for automating some tasks in the loop if needed\n\n \nHow to start and operate the reactor safely:\n\nFirst, make sure the gas loop is moving gas, by turning on the gas filters, setting them to filter all gas or no gas depending on their orientation.\nThen, unlock the gas turbine and nuclear reactor to interact with their integrated consoles properly.\nNext, input gas into the loop choosing the canisters of your choice and wrenching them to the connector ports, then turning on the gas pump.\nFinally, open the fuel rod crate that was provided and insert all three rods one by one into the empty spots in the middle of the reactor, using the console in target mode to visualize the rods' position.\n\nOnce this is done, the gas should slowly start warming up and the turbine will start spinning slowly.\nEnsure an operator is present at all times to check on turbine and reactor efficiency and integrity.\n\nIMPORTANT SAFETY INFORMATION:\n\nModify the reactor setup at your own risk. Changing the default position of the rods, or their makeup, should only be done by experts. The gas loop should likewise be checked by experts before introducing gas to it again if it was modified.\n\nInput plasma into the loop at your own risk. The thermal energy output will increase at the cost of heavier radiation output, which can leak through walls and windows and injure or kill crew wearing no protection.\n\nRaise the control rods at your own risk. Raising them, especially if the gas loop contains plasma, can lead to a reactor meltdown.\n\nAlways keep an eye on the turbine RPM. Should it go into the high red, damage will occur quickly and can result in venting of the whole gas loop and great damage to infrastructure. Always have a fuel tank handy for your welder.\n\n\n\n"
 - proto: PaperDyedOcean
   entities:
   - uid: 24604
@@ -125975,7 +125938,7 @@ entities:
 
         Date of check out (shift time):
 
-        Expected borrowing duration (must not exceed 60 minutes): 
+        Expected borrowing duration (must not exceed 60 minutes):
 
 
         All checked out books must be checked back in before end of shift. Any and all books that have not been checked back in by shift end will result in a fine to the responsible party.
@@ -126011,7 +125974,7 @@ entities:
     - type: Paper
       content: >
         Dearest Commander Alpha,
-          Using the cover of a construction worker, I have established a foothold on station, it is a small room next to the detective's office. With a bit more work, the next operative you send in will be able to falsify criminal records easily. 
+          Using the cover of a construction worker, I have established a foothold on station, it is a small room next to the detective's office. With a bit more work, the next operative you send in will be able to falsify criminal records easily.
         Requesting bluespace extraction as I have run out of fuel in my welding tool and the air grows thin.
 
 
@@ -126037,7 +126000,7 @@ entities:
 
         Date of check in (shift time):
 
-        Actual borrowing duration (if exceeding 60 minutes, may result in a fine): 
+        Actual borrowing duration (if exceeding 60 minutes, may result in a fine):
 
         Book damages (if any):
 
@@ -126117,10 +126080,10 @@ entities:
          ̶O̶n̶c̶e̶ ̶u̶p̶o̶n̶ ̶a̶ ̶t̶i̶m̶e̶
 
 
-                              ̷T̷h̷i̷s̷ ̷i̷s̷ ̷t̷h̷e̷ ̷s̷t̷o̷r̷y̷ ̷o̷f̷ ̷a̷ ̷y̷o̷u̷n̷g̷ ̷
+                              ̷T̷h̷i̷s̷ ̷i̷s̷ ̷t̷h̷e̷ ̷s̷t̷o̷r̷y̷ ̷o̷f̷ ̷a̷ ̷y̷o̷u̷n̷g̷
 
-           ̷F̷r̷i̷d̷a̷y̷,̷ ̷J̷a̷n̷u̷a̷r̷y̷ ̷1̷5̷t̷h̷,̷ ̷2̷8̷9̷5̷.̷ ̷
-        ̷T̷h̷e̷ ̷w̷i̷n̷d̷ ̷i̷s̷ ̷
+           ̷F̷r̷i̷d̷a̷y̷,̷ ̷J̷a̷n̷u̷a̷r̷y̷ ̷1̷5̷t̷h̷,̷ ̷2̷8̷9̷5̷.̷
+        ̷T̷h̷e̷ ̷w̷i̷n̷d̷ ̷i̷s̷
 
 
            Gods curse this writer's block!!!!
@@ -126716,7 +126679,7 @@ entities:
       parent: 2
     - type: Paper
       content: >2-
-           
+
           These used to be commonplace but the chaplains association failed to negotiate a renewal of the initiative so I hope you feel lucky to have this surplus crate.
 
          -T.
@@ -126742,20 +126705,20 @@ entities:
       parent: 4003
     - type: Paper
       content: >2-
-         
-             it's    watc hing  me 
 
-         wr ite 
+             it's    watc hing  me
 
-         but it cann ot 
-           see t   e 
+         wr ite
+
+         but it cann ot
+           see t   e
                     h
 
                             text
 
 
-        the AI  
-         is                                      must   tur n 
+        the AI
+         is                                      must   tur n
          insane                    you                             it  of f
     - type: Physics
       angularDamping: 0
@@ -154489,13 +154452,6 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: Turbine
-  entities:
-  - uid: 17054
-    components:
-    - type: Transform
-      pos: 14.5,104.5
-      parent: 2
 - proto: Turnstile
   entities:
   - uid: 2960

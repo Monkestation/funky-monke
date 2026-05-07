@@ -29865,13 +29865,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 101.5,2.5
       parent: 2
-- proto: BaseNuclearReactor
-  entities:
-  - uid: 27967
-    components:
-    - type: Transform
-      pos: 100.5,-34.5
-      parent: 2
 - proto: Basketball
   entities:
   - uid: 2242
@@ -89023,23 +89016,6 @@ entities:
     components:
     - type: Transform
       pos: 12.5,-42.5
-      parent: 2
-- proto: CerenkiteReactorFuelRod
-  entities:
-  - uid: 36390
-    components:
-    - type: Transform
-      pos: 105.22788,-30.41145
-      parent: 2
-  - uid: 36391
-    components:
-    - type: Transform
-      pos: 105.43101,-30.239574
-      parent: 2
-  - uid: 36392
-    components:
-    - type: Transform
-      pos: 105.64976,-30.3802
       parent: 2
 - proto: Chair
   entities:
@@ -173061,20 +173037,6 @@ entities:
     - type: Transform
       pos: 46.5,-7.5
       parent: 2
-- proto: NuclearCentrifuge
-  entities:
-  - uid: 36387
-    components:
-    - type: Transform
-      pos: 104.5,-30.5
-      parent: 2
-- proto: NuclearFabricator
-  entities:
-  - uid: 35613
-    components:
-    - type: Transform
-      pos: 103.5,-29.5
-      parent: 2
 - proto: OnionSeeds
   entities:
   - uid: 24974
@@ -206702,13 +206664,6 @@ entities:
     components:
     - type: Transform
       pos: -21.065002,19.629496
-      parent: 2
-- proto: Turbine
-  entities:
-  - uid: 80
-    components:
-    - type: Transform
-      pos: 107.5,-34.5
       parent: 2
 - proto: TurnstileGenpopEnter
   entities:

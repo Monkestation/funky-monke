@@ -12,6 +12,7 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using System.Linq;
 using Content.Shared.Guidebook;
+using Microsoft.Extensions.Logging;
 
 namespace Content.IntegrationTests.Tests.Guidebook;
 
@@ -42,6 +43,7 @@ public sealed class GuideEntryPrototypeTests
             });
 
             // Avoid styleguide update limit
+            await Console.Out.WriteLineAsync(proto.Name);
             await client.WaitRunTicks(1);
         }
 

@@ -26611,15 +26611,6 @@ entities:
     - type: Transform
       pos: 45.5,16.5
       parent: 2
-- proto: BaseNuclearReactor
-  entities:
-  - uid: 28626
-    components:
-    - type: Transform
-      pos: -98.5,-28.5
-      parent: 2
-    - type: DeviceLinkSink
-      invokeCounter: 10
 - proto: Basketball
   entities:
   - uid: 303
@@ -71578,23 +71569,6 @@ entities:
     components:
     - type: Transform
       pos: -83.5,-27.5
-      parent: 2
-- proto: CerenkiteReactorFuelRod
-  entities:
-  - uid: 28805
-    components:
-    - type: Transform
-      pos: -89.268555,-27.447544
-      parent: 2
-  - uid: 28850
-    components:
-    - type: Transform
-      pos: -89.768555,-27.447544
-      parent: 2
-  - uid: 28851
-    components:
-    - type: Transform
-      pos: -89.487305,-27.447544
       parent: 2
 - proto: Chair
   entities:
@@ -149772,20 +149746,6 @@ entities:
     - type: Transform
       pos: 15.5,41.5
       parent: 2
-- proto: NuclearCentrifuge
-  entities:
-  - uid: 28800
-    components:
-    - type: Transform
-      pos: -91.5,-27.5
-      parent: 2
-- proto: NuclearFabricator
-  entities:
-  - uid: 28801
-    components:
-    - type: Transform
-      pos: -90.5,-27.5
-      parent: 2
 - proto: NukeDiskFake
   entities:
   - uid: 20385
@@ -174071,13 +174031,6 @@ entities:
     components:
     - type: Transform
       pos: 76.06008,-15.353266
-      parent: 2
-- proto: Turbine
-  entities:
-  - uid: 28645
-    components:
-    - type: Transform
-      pos: -100.5,-34.5
       parent: 2
 - proto: Turnstile
   entities:

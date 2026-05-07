@@ -24312,13 +24312,6 @@ entities:
     - type: Transform
       pos: -17.5,20.5
       parent: 2
-- proto: BaseNuclearReactor
-  entities:
-  - uid: 16480
-    components:
-    - type: Transform
-      pos: -19.5,38.5
-      parent: 2
 - proto: Beaker
   entities:
   - uid: 1053
@@ -70720,13 +70713,6 @@ entities:
       removedMasks: 20
     - type: PlaceableSurface
       isPlaceable: True
-- proto: CrateCerenkiteFuelRod
-  entities:
-  - uid: 24411
-    components:
-    - type: Transform
-      pos: -12.5,25.5
-      parent: 2
 - proto: CrateCoffin
   entities:
   - uid: 9338
@@ -129906,20 +129892,6 @@ entities:
     - type: Transform
       pos: 92.5,14.5
       parent: 2
-- proto: NuclearCentrifuge
-  entities:
-  - uid: 24419
-    components:
-    - type: Transform
-      pos: -15.5,22.5
-      parent: 2
-- proto: NuclearFabricator
-  entities:
-  - uid: 24408
-    components:
-    - type: Transform
-      pos: -12.5,22.5
-      parent: 2
 - proto: NukeDiskFake
   entities:
   - uid: 16930
@@ -147593,20 +147565,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 31.5,50.5
       parent: 2
-- proto: SilverReactorControlRod
-  entities:
-  - uid: 24417
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -12.254536,24.036146
-      parent: 2
-  - uid: 24418
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -12.374092,24.187479
-      parent: 2
 - proto: Sink
   entities:
   - uid: 19682
@@ -149321,38 +149279,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 12.5,51.5
-      parent: 2
-- proto: SteelReactorControlRod
-  entities:
-  - uid: 24412
-    components:
-    - type: Transform
-      pos: -12.1803465,24.993416
-      parent: 2
-  - uid: 24413
-    components:
-    - type: Transform
-      pos: -12.45134,24.722609
-      parent: 2
-- proto: SteelReactorGasChannel
-  entities:
-  - uid: 24414
-    components:
-    - type: Transform
-      pos: -12.244109,24.587204
-      parent: 2
-- proto: SteelReactorHeatExchanger
-  entities:
-  - uid: 24415
-    components:
-    - type: Transform
-      pos: -12.770156,23.742918
-      parent: 2
-  - uid: 24416
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -12.491192,23.53583
       parent: 2
 - proto: Stool
   entities:
@@ -154053,13 +153979,6 @@ entities:
     components:
     - type: Transform
       pos: 28.117012,64.729576
-      parent: 2
-- proto: Turbine
-  entities:
-  - uid: 9311
-    components:
-    - type: Transform
-      pos: -19.5,30.5
       parent: 2
 - proto: Turnstile
   entities:
